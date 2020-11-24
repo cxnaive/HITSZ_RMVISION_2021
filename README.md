@@ -16,11 +16,9 @@
 
 | 硬件设备                                             | 操作系统                                     | 运行库                                                       | ToolChain                                                  |
 | ---------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| IntelNUC<br />大恒工业相机×１<br />USB转TTL×１ | Ubuntu18.04<br />Ubuntu16.04<br />Ｗindows10 | OpenCV3.4.11<br />OpenCV_contrib3.4.11<br />Eigen3<br />大恒相机驱动 | Ubuntu18/16 : cmake3+gcc7+g++7 <br />Win10 : cmake3+VS2019 |
+| IntelNUC<br />大恒工业相机×１<br />USB转TTL×１ | Ubuntu18.04<br />Ubuntu20.04 | OpenCV4.5.0<br />opencv_contrib4.5.0<br />大恒相机驱动 <br /> GLOG <br /> MNN (阿里开源框架)| Ubuntu18/20 : cmake3.16 + build-essential <br />|
 
-**关于Windows环境下的运行支持，仅保证程序可以编译运行。对与部分辅助功能，如生成自启动脚本则不支持。**
-
-**实际装载在步兵和哨兵上的运行环境为Ubuntu18.04。**
+**实际装载在步兵和哨兵上的运行环境为Ubuntu20.04。**
 
 相机驱动下载地址：[相机驱动](https://www.daheng-imaging.com/)
 
@@ -28,15 +26,15 @@ OpenCV下载地址：[OpenCV](https://github.com/opencv)
 
 OpenCV安装教程 : [linux](https://docs.opencv.org/3.4.11/d7/d9f/tutorial_linux_install.html)  [Windows](https://docs.opencv.org/3.4.11/d3/d52/tutorial_windows_install.html)
 
-Eigen下载方法：
-* Ubuntu16/18: ```sudo apt install libeigen3-dev```
-* Windows10 : [Eigen下载地址](http://eigen.tuxfamily.org/)
+MNN : [MNN](https://github.com/alibaba/MNN)
+
+GLOG : [GLOG](https://github.com/google/glog)
 
 ## 二、程序编译运行以及调试方式
 
 ### 1.编译运行
 
-* Ubuntu16/18（在项目文件夹下）
+* Ubuntu20/18（在项目文件夹下）
 
 ```shell
 mkdir build
@@ -45,16 +43,6 @@ cmake ..
 make -j8
 sudo ./run
 ```
-
-* Windows10
-
-  打开cmake-gui，选择项目文件夹和build文件夹，生成VS工程。在VS中编译项目。
-
-### 2.调试方式
-
-```./run --help```可以查看所有命令行参数及其作用。所有调试选项都集成到了命令行参数中。
-
-需要调参的部分：主要需要根据车辆情况而调参的参数存放在others/include/config/setconfig.h中
 
 ### 3.工作条件
 
