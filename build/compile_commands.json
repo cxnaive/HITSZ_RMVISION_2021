@@ -1,0 +1,282 @@
+[
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/test.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/test.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/test.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/anti_top/anti_top.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/anti_top/anti_top.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/anti_top/anti_top.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/armor_box/armor_box.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_box/armor_box.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_box/armor_box.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/armor_finder.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_finder.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_finder.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/classifier/classifier.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/classifier/classifier.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/classifier/classifier.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/find/find_armor_box.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_armor_box.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_armor_box.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/find/find_light_blobs.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_light_blobs.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_light_blobs.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/searching_state/searching_state.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/searching_state/searching_state.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/searching_state/searching_state.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/send_target/send_target.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/send_target/send_target.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/send_target/send_target.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/standby_state/standby_state.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/standby_state/standby_state.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/standby_state/standby_state.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/tracking_state/tracking_state.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/tracking_state/tracking_state.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/armor/src/show_images/show_images.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/show_images/show_images.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/show_images/show_images.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_linux.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_linux.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_linux.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_osx.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_osx.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_osx.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_win.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_win.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_win.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/com/src/impl/unix.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/unix.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/unix.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/com/src/impl/win.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/win.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/win.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/com/src/rmserial.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/rmserial.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/rmserial.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/com/src/serial.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/serial.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/serial.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/config/src/rmconfig.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/config/src/runtime.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/config/src/runtime.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/config/src/runtime.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/net/src/NumberDetector.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/net/src/NumberDetector.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/net/src/NumberDetector.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/others/src/camera/cam_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/others/src/camera/video_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/others/src/lib_json/json_reader.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/others/src/lib_json/json_value.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/others/src/lib_json/json_writer.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/test.dir/others/src/rmtime.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/rmtime.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/rmtime.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/main.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/main.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/main.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/anti_top/anti_top.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/anti_top/anti_top.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/anti_top/anti_top.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_box/armor_box.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_box/armor_box.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_box/armor_box.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_finder.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_finder.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/armor_finder.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/classifier/classifier.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/classifier/classifier.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/classifier/classifier.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_armor_box.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_armor_box.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_armor_box.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_light_blobs.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_light_blobs.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/find/find_light_blobs.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/searching_state/searching_state.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/searching_state/searching_state.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/searching_state/searching_state.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/send_target/send_target.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/send_target/send_target.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/send_target/send_target.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/standby_state/standby_state.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/standby_state/standby_state.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/standby_state/standby_state.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/tracking_state/tracking_state.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/armor_finder/tracking_state/tracking_state.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/armor/src/show_images/show_images.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/armor/src/show_images/show_images.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/armor/src/show_images/show_images.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_linux.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_linux.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_linux.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_osx.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_osx.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_osx.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_win.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_win.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/list_ports/list_ports_win.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/com/src/impl/unix.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/unix.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/unix.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/com/src/impl/win.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/impl/win.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/impl/win.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/com/src/rmserial.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/rmserial.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/rmserial.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/com/src/serial.cc.o -c /home/chenxun/HITSZ_RMVISION_2021/com/src/serial.cc",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/com/src/serial.cc"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/config/src/runtime.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/config/src/runtime.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/config/src/runtime.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/net/src/NumberDetector.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/net/src/NumberDetector.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rmcv.dir/others/src/rmtime.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/rmtime.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/rmtime.cpp"
+}
+]

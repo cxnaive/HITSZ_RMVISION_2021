@@ -1,0 +1,17 @@
+{
+	"config" : 
+	{
+		"show_armor_box" : true,
+		"show_class_id" : false,
+		"show_light_box" : false,
+		"show_origin" : true,
+		"wait_uart" : false
+	},
+	"config_data" : 
+	{
+		"ARMOR_CAMERA_EXPOSURE" : 4000,
+		"ARMOR_CAMERA_GAIN" : 12,
+		"ENERGY_CAMERA_EXPOSURE" : 4000,
+		"ENERGY_CAMERA_GAIN" : 5
+	}
+}
