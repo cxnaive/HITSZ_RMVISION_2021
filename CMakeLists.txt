@@ -25,11 +25,13 @@ file(GLOB_RECURSE sourcefiles
 "armor/**/*.h" "armor/**/*.cpp"
 )
 
+file(GLOB_RECURSE camfiles "others/**/*.h" "others/**/*.cpp")
+
 add_executable(rmcv main.cpp ${sourcefiles})
-add_executable(test test.cpp ${sourcefiles})
+add_executable(calibrate calibrate_get_imgs.cpp ${camfiles})
 link_directories(${OpenCV_LIBRARY_DIRS})
 
 target_link_libraries(rmcv ${CMAKE_THREAD_LIBS_INIT} ${OpenCV_LIBS} glog::glog libgxiapi.so libMNN.so)
-target_link_libraries(test ${CMAKE_THREAD_LIBS_INIT} ${OpenCV_LIBS} glog::glog libgxiapi.so libMNN.so)
+target_link_libraries(calibrate ${CMAKE_THREAD_LIBS_INIT} ${OpenCV_LIBS} glog::glog libgxiapi.so libMNN.so)
 
 

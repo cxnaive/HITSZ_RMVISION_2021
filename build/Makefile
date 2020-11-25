@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
+# Target rules for targets named calibrate
 
 # Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
+calibrate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 calibrate
+.PHONY : calibrate
 
 # fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+calibrate/fast:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/build
+.PHONY : calibrate/fast
 
 #=============================================================================
 # Target rules for targets named rmcv
@@ -142,7 +142,6 @@ armor/src/armor_finder/anti_top/anti_top.o: armor/src/armor_finder/anti_top/anti
 
 # target to build an object file
 armor/src/armor_finder/anti_top/anti_top.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/anti_top/anti_top.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/anti_top/anti_top.cpp.o
 .PHONY : armor/src/armor_finder/anti_top/anti_top.cpp.o
 
@@ -152,7 +151,6 @@ armor/src/armor_finder/anti_top/anti_top.i: armor/src/armor_finder/anti_top/anti
 
 # target to preprocess a source file
 armor/src/armor_finder/anti_top/anti_top.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/anti_top/anti_top.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/anti_top/anti_top.cpp.i
 .PHONY : armor/src/armor_finder/anti_top/anti_top.cpp.i
 
@@ -162,7 +160,6 @@ armor/src/armor_finder/anti_top/anti_top.s: armor/src/armor_finder/anti_top/anti
 
 # target to generate assembly for a file
 armor/src/armor_finder/anti_top/anti_top.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/anti_top/anti_top.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/anti_top/anti_top.cpp.s
 .PHONY : armor/src/armor_finder/anti_top/anti_top.cpp.s
 
@@ -172,7 +169,6 @@ armor/src/armor_finder/armor_box/armor_box.o: armor/src/armor_finder/armor_box/a
 
 # target to build an object file
 armor/src/armor_finder/armor_box/armor_box.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/armor_box/armor_box.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_box/armor_box.cpp.o
 .PHONY : armor/src/armor_finder/armor_box/armor_box.cpp.o
 
@@ -182,7 +178,6 @@ armor/src/armor_finder/armor_box/armor_box.i: armor/src/armor_finder/armor_box/a
 
 # target to preprocess a source file
 armor/src/armor_finder/armor_box/armor_box.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/armor_box/armor_box.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_box/armor_box.cpp.i
 .PHONY : armor/src/armor_finder/armor_box/armor_box.cpp.i
 
@@ -192,7 +187,6 @@ armor/src/armor_finder/armor_box/armor_box.s: armor/src/armor_finder/armor_box/a
 
 # target to generate assembly for a file
 armor/src/armor_finder/armor_box/armor_box.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/armor_box/armor_box.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_box/armor_box.cpp.s
 .PHONY : armor/src/armor_finder/armor_box/armor_box.cpp.s
 
@@ -202,7 +196,6 @@ armor/src/armor_finder/armor_finder.o: armor/src/armor_finder/armor_finder.cpp.o
 
 # target to build an object file
 armor/src/armor_finder/armor_finder.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/armor_finder.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_finder.cpp.o
 .PHONY : armor/src/armor_finder/armor_finder.cpp.o
 
@@ -212,7 +205,6 @@ armor/src/armor_finder/armor_finder.i: armor/src/armor_finder/armor_finder.cpp.i
 
 # target to preprocess a source file
 armor/src/armor_finder/armor_finder.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/armor_finder.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_finder.cpp.i
 .PHONY : armor/src/armor_finder/armor_finder.cpp.i
 
@@ -222,7 +214,6 @@ armor/src/armor_finder/armor_finder.s: armor/src/armor_finder/armor_finder.cpp.s
 
 # target to generate assembly for a file
 armor/src/armor_finder/armor_finder.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/armor_finder.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/armor_finder.cpp.s
 .PHONY : armor/src/armor_finder/armor_finder.cpp.s
 
@@ -232,7 +223,6 @@ armor/src/armor_finder/classifier/classifier.o: armor/src/armor_finder/classifie
 
 # target to build an object file
 armor/src/armor_finder/classifier/classifier.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/classifier/classifier.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/classifier/classifier.cpp.o
 .PHONY : armor/src/armor_finder/classifier/classifier.cpp.o
 
@@ -242,7 +232,6 @@ armor/src/armor_finder/classifier/classifier.i: armor/src/armor_finder/classifie
 
 # target to preprocess a source file
 armor/src/armor_finder/classifier/classifier.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/classifier/classifier.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/classifier/classifier.cpp.i
 .PHONY : armor/src/armor_finder/classifier/classifier.cpp.i
 
@@ -252,7 +241,6 @@ armor/src/armor_finder/classifier/classifier.s: armor/src/armor_finder/classifie
 
 # target to generate assembly for a file
 armor/src/armor_finder/classifier/classifier.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/classifier/classifier.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/classifier/classifier.cpp.s
 .PHONY : armor/src/armor_finder/classifier/classifier.cpp.s
 
@@ -262,7 +250,6 @@ armor/src/armor_finder/find/find_armor_box.o: armor/src/armor_finder/find/find_a
 
 # target to build an object file
 armor/src/armor_finder/find/find_armor_box.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/find/find_armor_box.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_armor_box.cpp.o
 .PHONY : armor/src/armor_finder/find/find_armor_box.cpp.o
 
@@ -272,7 +259,6 @@ armor/src/armor_finder/find/find_armor_box.i: armor/src/armor_finder/find/find_a
 
 # target to preprocess a source file
 armor/src/armor_finder/find/find_armor_box.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/find/find_armor_box.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_armor_box.cpp.i
 .PHONY : armor/src/armor_finder/find/find_armor_box.cpp.i
 
@@ -282,7 +268,6 @@ armor/src/armor_finder/find/find_armor_box.s: armor/src/armor_finder/find/find_a
 
 # target to generate assembly for a file
 armor/src/armor_finder/find/find_armor_box.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/find/find_armor_box.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_armor_box.cpp.s
 .PHONY : armor/src/armor_finder/find/find_armor_box.cpp.s
 
@@ -292,7 +277,6 @@ armor/src/armor_finder/find/find_light_blobs.o: armor/src/armor_finder/find/find
 
 # target to build an object file
 armor/src/armor_finder/find/find_light_blobs.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/find/find_light_blobs.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_light_blobs.cpp.o
 .PHONY : armor/src/armor_finder/find/find_light_blobs.cpp.o
 
@@ -302,7 +286,6 @@ armor/src/armor_finder/find/find_light_blobs.i: armor/src/armor_finder/find/find
 
 # target to preprocess a source file
 armor/src/armor_finder/find/find_light_blobs.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/find/find_light_blobs.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_light_blobs.cpp.i
 .PHONY : armor/src/armor_finder/find/find_light_blobs.cpp.i
 
@@ -312,7 +295,6 @@ armor/src/armor_finder/find/find_light_blobs.s: armor/src/armor_finder/find/find
 
 # target to generate assembly for a file
 armor/src/armor_finder/find/find_light_blobs.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/find/find_light_blobs.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/find/find_light_blobs.cpp.s
 .PHONY : armor/src/armor_finder/find/find_light_blobs.cpp.s
 
@@ -322,7 +304,6 @@ armor/src/armor_finder/searching_state/searching_state.o: armor/src/armor_finder
 
 # target to build an object file
 armor/src/armor_finder/searching_state/searching_state.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/searching_state/searching_state.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/searching_state/searching_state.cpp.o
 .PHONY : armor/src/armor_finder/searching_state/searching_state.cpp.o
 
@@ -332,7 +313,6 @@ armor/src/armor_finder/searching_state/searching_state.i: armor/src/armor_finder
 
 # target to preprocess a source file
 armor/src/armor_finder/searching_state/searching_state.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/searching_state/searching_state.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/searching_state/searching_state.cpp.i
 .PHONY : armor/src/armor_finder/searching_state/searching_state.cpp.i
 
@@ -342,7 +322,6 @@ armor/src/armor_finder/searching_state/searching_state.s: armor/src/armor_finder
 
 # target to generate assembly for a file
 armor/src/armor_finder/searching_state/searching_state.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/searching_state/searching_state.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/searching_state/searching_state.cpp.s
 .PHONY : armor/src/armor_finder/searching_state/searching_state.cpp.s
 
@@ -352,7 +331,6 @@ armor/src/armor_finder/send_target/send_target.o: armor/src/armor_finder/send_ta
 
 # target to build an object file
 armor/src/armor_finder/send_target/send_target.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/send_target/send_target.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/send_target/send_target.cpp.o
 .PHONY : armor/src/armor_finder/send_target/send_target.cpp.o
 
@@ -362,7 +340,6 @@ armor/src/armor_finder/send_target/send_target.i: armor/src/armor_finder/send_ta
 
 # target to preprocess a source file
 armor/src/armor_finder/send_target/send_target.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/send_target/send_target.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/send_target/send_target.cpp.i
 .PHONY : armor/src/armor_finder/send_target/send_target.cpp.i
 
@@ -372,7 +349,6 @@ armor/src/armor_finder/send_target/send_target.s: armor/src/armor_finder/send_ta
 
 # target to generate assembly for a file
 armor/src/armor_finder/send_target/send_target.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/send_target/send_target.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/send_target/send_target.cpp.s
 .PHONY : armor/src/armor_finder/send_target/send_target.cpp.s
 
@@ -382,7 +358,6 @@ armor/src/armor_finder/standby_state/standby_state.o: armor/src/armor_finder/sta
 
 # target to build an object file
 armor/src/armor_finder/standby_state/standby_state.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/standby_state/standby_state.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/standby_state/standby_state.cpp.o
 .PHONY : armor/src/armor_finder/standby_state/standby_state.cpp.o
 
@@ -392,7 +367,6 @@ armor/src/armor_finder/standby_state/standby_state.i: armor/src/armor_finder/sta
 
 # target to preprocess a source file
 armor/src/armor_finder/standby_state/standby_state.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/standby_state/standby_state.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/standby_state/standby_state.cpp.i
 .PHONY : armor/src/armor_finder/standby_state/standby_state.cpp.i
 
@@ -402,7 +376,6 @@ armor/src/armor_finder/standby_state/standby_state.s: armor/src/armor_finder/sta
 
 # target to generate assembly for a file
 armor/src/armor_finder/standby_state/standby_state.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/standby_state/standby_state.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/standby_state/standby_state.cpp.s
 .PHONY : armor/src/armor_finder/standby_state/standby_state.cpp.s
 
@@ -412,7 +385,6 @@ armor/src/armor_finder/tracking_state/tracking_state.o: armor/src/armor_finder/t
 
 # target to build an object file
 armor/src/armor_finder/tracking_state/tracking_state.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.o
 .PHONY : armor/src/armor_finder/tracking_state/tracking_state.cpp.o
 
@@ -422,7 +394,6 @@ armor/src/armor_finder/tracking_state/tracking_state.i: armor/src/armor_finder/t
 
 # target to preprocess a source file
 armor/src/armor_finder/tracking_state/tracking_state.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.i
 .PHONY : armor/src/armor_finder/tracking_state/tracking_state.cpp.i
 
@@ -432,7 +403,6 @@ armor/src/armor_finder/tracking_state/tracking_state.s: armor/src/armor_finder/t
 
 # target to generate assembly for a file
 armor/src/armor_finder/tracking_state/tracking_state.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/armor_finder/tracking_state/tracking_state.cpp.s
 .PHONY : armor/src/armor_finder/tracking_state/tracking_state.cpp.s
 
@@ -442,7 +412,6 @@ armor/src/show_images/show_images.o: armor/src/show_images/show_images.cpp.o
 
 # target to build an object file
 armor/src/show_images/show_images.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/show_images/show_images.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/show_images/show_images.cpp.o
 .PHONY : armor/src/show_images/show_images.cpp.o
 
@@ -452,7 +421,6 @@ armor/src/show_images/show_images.i: armor/src/show_images/show_images.cpp.i
 
 # target to preprocess a source file
 armor/src/show_images/show_images.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/show_images/show_images.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/show_images/show_images.cpp.i
 .PHONY : armor/src/show_images/show_images.cpp.i
 
@@ -462,9 +430,35 @@ armor/src/show_images/show_images.s: armor/src/show_images/show_images.cpp.s
 
 # target to generate assembly for a file
 armor/src/show_images/show_images.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/armor/src/show_images/show_images.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/armor/src/show_images/show_images.cpp.s
 .PHONY : armor/src/show_images/show_images.cpp.s
+
+calibrate_get_imgs.o: calibrate_get_imgs.cpp.o
+
+.PHONY : calibrate_get_imgs.o
+
+# target to build an object file
+calibrate_get_imgs.cpp.o:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.o
+.PHONY : calibrate_get_imgs.cpp.o
+
+calibrate_get_imgs.i: calibrate_get_imgs.cpp.i
+
+.PHONY : calibrate_get_imgs.i
+
+# target to preprocess a source file
+calibrate_get_imgs.cpp.i:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.i
+.PHONY : calibrate_get_imgs.cpp.i
+
+calibrate_get_imgs.s: calibrate_get_imgs.cpp.s
+
+.PHONY : calibrate_get_imgs.s
+
+# target to generate assembly for a file
+calibrate_get_imgs.cpp.s:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.s
+.PHONY : calibrate_get_imgs.cpp.s
 
 com/src/impl/list_ports/list_ports_linux.o: com/src/impl/list_ports/list_ports_linux.cc.o
 
@@ -472,7 +466,6 @@ com/src/impl/list_ports/list_ports_linux.o: com/src/impl/list_ports/list_ports_l
 
 # target to build an object file
 com/src/impl/list_ports/list_ports_linux.cc.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_linux.cc.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_linux.cc.o
 .PHONY : com/src/impl/list_ports/list_ports_linux.cc.o
 
@@ -482,7 +475,6 @@ com/src/impl/list_ports/list_ports_linux.i: com/src/impl/list_ports/list_ports_l
 
 # target to preprocess a source file
 com/src/impl/list_ports/list_ports_linux.cc.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_linux.cc.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_linux.cc.i
 .PHONY : com/src/impl/list_ports/list_ports_linux.cc.i
 
@@ -492,7 +484,6 @@ com/src/impl/list_ports/list_ports_linux.s: com/src/impl/list_ports/list_ports_l
 
 # target to generate assembly for a file
 com/src/impl/list_ports/list_ports_linux.cc.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_linux.cc.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_linux.cc.s
 .PHONY : com/src/impl/list_ports/list_ports_linux.cc.s
 
@@ -502,7 +493,6 @@ com/src/impl/list_ports/list_ports_osx.o: com/src/impl/list_ports/list_ports_osx
 
 # target to build an object file
 com/src/impl/list_ports/list_ports_osx.cc.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_osx.cc.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_osx.cc.o
 .PHONY : com/src/impl/list_ports/list_ports_osx.cc.o
 
@@ -512,7 +502,6 @@ com/src/impl/list_ports/list_ports_osx.i: com/src/impl/list_ports/list_ports_osx
 
 # target to preprocess a source file
 com/src/impl/list_ports/list_ports_osx.cc.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_osx.cc.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_osx.cc.i
 .PHONY : com/src/impl/list_ports/list_ports_osx.cc.i
 
@@ -522,7 +511,6 @@ com/src/impl/list_ports/list_ports_osx.s: com/src/impl/list_ports/list_ports_osx
 
 # target to generate assembly for a file
 com/src/impl/list_ports/list_ports_osx.cc.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_osx.cc.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_osx.cc.s
 .PHONY : com/src/impl/list_ports/list_ports_osx.cc.s
 
@@ -532,7 +520,6 @@ com/src/impl/list_ports/list_ports_win.o: com/src/impl/list_ports/list_ports_win
 
 # target to build an object file
 com/src/impl/list_ports/list_ports_win.cc.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_win.cc.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_win.cc.o
 .PHONY : com/src/impl/list_ports/list_ports_win.cc.o
 
@@ -542,7 +529,6 @@ com/src/impl/list_ports/list_ports_win.i: com/src/impl/list_ports/list_ports_win
 
 # target to preprocess a source file
 com/src/impl/list_ports/list_ports_win.cc.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_win.cc.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_win.cc.i
 .PHONY : com/src/impl/list_ports/list_ports_win.cc.i
 
@@ -552,7 +538,6 @@ com/src/impl/list_ports/list_ports_win.s: com/src/impl/list_ports/list_ports_win
 
 # target to generate assembly for a file
 com/src/impl/list_ports/list_ports_win.cc.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/list_ports/list_ports_win.cc.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/list_ports/list_ports_win.cc.s
 .PHONY : com/src/impl/list_ports/list_ports_win.cc.s
 
@@ -562,7 +547,6 @@ com/src/impl/unix.o: com/src/impl/unix.cc.o
 
 # target to build an object file
 com/src/impl/unix.cc.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/unix.cc.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/unix.cc.o
 .PHONY : com/src/impl/unix.cc.o
 
@@ -572,7 +556,6 @@ com/src/impl/unix.i: com/src/impl/unix.cc.i
 
 # target to preprocess a source file
 com/src/impl/unix.cc.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/unix.cc.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/unix.cc.i
 .PHONY : com/src/impl/unix.cc.i
 
@@ -582,7 +565,6 @@ com/src/impl/unix.s: com/src/impl/unix.cc.s
 
 # target to generate assembly for a file
 com/src/impl/unix.cc.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/unix.cc.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/unix.cc.s
 .PHONY : com/src/impl/unix.cc.s
 
@@ -592,7 +574,6 @@ com/src/impl/win.o: com/src/impl/win.cc.o
 
 # target to build an object file
 com/src/impl/win.cc.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/win.cc.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/win.cc.o
 .PHONY : com/src/impl/win.cc.o
 
@@ -602,7 +583,6 @@ com/src/impl/win.i: com/src/impl/win.cc.i
 
 # target to preprocess a source file
 com/src/impl/win.cc.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/win.cc.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/win.cc.i
 .PHONY : com/src/impl/win.cc.i
 
@@ -612,7 +592,6 @@ com/src/impl/win.s: com/src/impl/win.cc.s
 
 # target to generate assembly for a file
 com/src/impl/win.cc.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/impl/win.cc.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/impl/win.cc.s
 .PHONY : com/src/impl/win.cc.s
 
@@ -622,7 +601,6 @@ com/src/rmserial.o: com/src/rmserial.cpp.o
 
 # target to build an object file
 com/src/rmserial.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/rmserial.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/rmserial.cpp.o
 .PHONY : com/src/rmserial.cpp.o
 
@@ -632,7 +610,6 @@ com/src/rmserial.i: com/src/rmserial.cpp.i
 
 # target to preprocess a source file
 com/src/rmserial.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/rmserial.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/rmserial.cpp.i
 .PHONY : com/src/rmserial.cpp.i
 
@@ -642,7 +619,6 @@ com/src/rmserial.s: com/src/rmserial.cpp.s
 
 # target to generate assembly for a file
 com/src/rmserial.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/rmserial.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/rmserial.cpp.s
 .PHONY : com/src/rmserial.cpp.s
 
@@ -652,7 +628,6 @@ com/src/serial.o: com/src/serial.cc.o
 
 # target to build an object file
 com/src/serial.cc.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/serial.cc.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/serial.cc.o
 .PHONY : com/src/serial.cc.o
 
@@ -662,7 +637,6 @@ com/src/serial.i: com/src/serial.cc.i
 
 # target to preprocess a source file
 com/src/serial.cc.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/serial.cc.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/serial.cc.i
 .PHONY : com/src/serial.cc.i
 
@@ -672,7 +646,6 @@ com/src/serial.s: com/src/serial.cc.s
 
 # target to generate assembly for a file
 com/src/serial.cc.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/com/src/serial.cc.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/com/src/serial.cc.s
 .PHONY : com/src/serial.cc.s
 
@@ -682,7 +655,6 @@ config/src/rmconfig.o: config/src/rmconfig.cpp.o
 
 # target to build an object file
 config/src/rmconfig.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/config/src/rmconfig.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.o
 .PHONY : config/src/rmconfig.cpp.o
 
@@ -692,7 +664,6 @@ config/src/rmconfig.i: config/src/rmconfig.cpp.i
 
 # target to preprocess a source file
 config/src/rmconfig.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/config/src/rmconfig.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.i
 .PHONY : config/src/rmconfig.cpp.i
 
@@ -702,7 +673,6 @@ config/src/rmconfig.s: config/src/rmconfig.cpp.s
 
 # target to generate assembly for a file
 config/src/rmconfig.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/config/src/rmconfig.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.s
 .PHONY : config/src/rmconfig.cpp.s
 
@@ -712,7 +682,6 @@ config/src/runtime.o: config/src/runtime.cpp.o
 
 # target to build an object file
 config/src/runtime.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/config/src/runtime.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/runtime.cpp.o
 .PHONY : config/src/runtime.cpp.o
 
@@ -722,7 +691,6 @@ config/src/runtime.i: config/src/runtime.cpp.i
 
 # target to preprocess a source file
 config/src/runtime.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/config/src/runtime.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/runtime.cpp.i
 .PHONY : config/src/runtime.cpp.i
 
@@ -732,7 +700,6 @@ config/src/runtime.s: config/src/runtime.cpp.s
 
 # target to generate assembly for a file
 config/src/runtime.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/config/src/runtime.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/runtime.cpp.s
 .PHONY : config/src/runtime.cpp.s
 
@@ -769,7 +736,6 @@ net/src/NumberDetector.o: net/src/NumberDetector.cpp.o
 
 # target to build an object file
 net/src/NumberDetector.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/net/src/NumberDetector.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o
 .PHONY : net/src/NumberDetector.cpp.o
 
@@ -779,7 +745,6 @@ net/src/NumberDetector.i: net/src/NumberDetector.cpp.i
 
 # target to preprocess a source file
 net/src/NumberDetector.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/net/src/NumberDetector.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.i
 .PHONY : net/src/NumberDetector.cpp.i
 
@@ -789,7 +754,6 @@ net/src/NumberDetector.s: net/src/NumberDetector.cpp.s
 
 # target to generate assembly for a file
 net/src/NumberDetector.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/net/src/NumberDetector.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.s
 .PHONY : net/src/NumberDetector.cpp.s
 
@@ -799,7 +763,7 @@ others/src/camera/cam_wrapper.o: others/src/camera/cam_wrapper.cpp.o
 
 # target to build an object file
 others/src/camera/cam_wrapper.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/camera/cam_wrapper.cpp.o
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o
 .PHONY : others/src/camera/cam_wrapper.cpp.o
 
@@ -809,7 +773,7 @@ others/src/camera/cam_wrapper.i: others/src/camera/cam_wrapper.cpp.i
 
 # target to preprocess a source file
 others/src/camera/cam_wrapper.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/camera/cam_wrapper.cpp.i
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.i
 .PHONY : others/src/camera/cam_wrapper.cpp.i
 
@@ -819,7 +783,7 @@ others/src/camera/cam_wrapper.s: others/src/camera/cam_wrapper.cpp.s
 
 # target to generate assembly for a file
 others/src/camera/cam_wrapper.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/camera/cam_wrapper.cpp.s
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.s
 .PHONY : others/src/camera/cam_wrapper.cpp.s
 
@@ -829,7 +793,7 @@ others/src/camera/video_wrapper.o: others/src/camera/video_wrapper.cpp.o
 
 # target to build an object file
 others/src/camera/video_wrapper.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/camera/video_wrapper.cpp.o
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o
 .PHONY : others/src/camera/video_wrapper.cpp.o
 
@@ -839,7 +803,7 @@ others/src/camera/video_wrapper.i: others/src/camera/video_wrapper.cpp.i
 
 # target to preprocess a source file
 others/src/camera/video_wrapper.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/camera/video_wrapper.cpp.i
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.i
 .PHONY : others/src/camera/video_wrapper.cpp.i
 
@@ -849,7 +813,7 @@ others/src/camera/video_wrapper.s: others/src/camera/video_wrapper.cpp.s
 
 # target to generate assembly for a file
 others/src/camera/video_wrapper.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/camera/video_wrapper.cpp.s
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.s
 .PHONY : others/src/camera/video_wrapper.cpp.s
 
@@ -859,7 +823,7 @@ others/src/lib_json/json_reader.o: others/src/lib_json/json_reader.cpp.o
 
 # target to build an object file
 others/src/lib_json/json_reader.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_reader.cpp.o
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.o
 .PHONY : others/src/lib_json/json_reader.cpp.o
 
@@ -869,7 +833,7 @@ others/src/lib_json/json_reader.i: others/src/lib_json/json_reader.cpp.i
 
 # target to preprocess a source file
 others/src/lib_json/json_reader.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_reader.cpp.i
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.i
 .PHONY : others/src/lib_json/json_reader.cpp.i
 
@@ -879,7 +843,7 @@ others/src/lib_json/json_reader.s: others/src/lib_json/json_reader.cpp.s
 
 # target to generate assembly for a file
 others/src/lib_json/json_reader.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_reader.cpp.s
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.s
 .PHONY : others/src/lib_json/json_reader.cpp.s
 
@@ -889,7 +853,7 @@ others/src/lib_json/json_value.o: others/src/lib_json/json_value.cpp.o
 
 # target to build an object file
 others/src/lib_json/json_value.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_value.cpp.o
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.o
 .PHONY : others/src/lib_json/json_value.cpp.o
 
@@ -899,7 +863,7 @@ others/src/lib_json/json_value.i: others/src/lib_json/json_value.cpp.i
 
 # target to preprocess a source file
 others/src/lib_json/json_value.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_value.cpp.i
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.i
 .PHONY : others/src/lib_json/json_value.cpp.i
 
@@ -909,7 +873,7 @@ others/src/lib_json/json_value.s: others/src/lib_json/json_value.cpp.s
 
 # target to generate assembly for a file
 others/src/lib_json/json_value.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_value.cpp.s
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.s
 .PHONY : others/src/lib_json/json_value.cpp.s
 
@@ -919,7 +883,7 @@ others/src/lib_json/json_writer.o: others/src/lib_json/json_writer.cpp.o
 
 # target to build an object file
 others/src/lib_json/json_writer.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_writer.cpp.o
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.o
 .PHONY : others/src/lib_json/json_writer.cpp.o
 
@@ -929,7 +893,7 @@ others/src/lib_json/json_writer.i: others/src/lib_json/json_writer.cpp.i
 
 # target to preprocess a source file
 others/src/lib_json/json_writer.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_writer.cpp.i
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.i
 .PHONY : others/src/lib_json/json_writer.cpp.i
 
@@ -939,7 +903,7 @@ others/src/lib_json/json_writer.s: others/src/lib_json/json_writer.cpp.s
 
 # target to generate assembly for a file
 others/src/lib_json/json_writer.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/lib_json/json_writer.cpp.s
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.s
 .PHONY : others/src/lib_json/json_writer.cpp.s
 
@@ -949,7 +913,7 @@ others/src/rmtime.o: others/src/rmtime.cpp.o
 
 # target to build an object file
 others/src/rmtime.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/rmtime.cpp.o
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/rmtime.cpp.o
 .PHONY : others/src/rmtime.cpp.o
 
@@ -959,7 +923,7 @@ others/src/rmtime.i: others/src/rmtime.cpp.i
 
 # target to preprocess a source file
 others/src/rmtime.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/rmtime.cpp.i
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/rmtime.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/rmtime.cpp.i
 .PHONY : others/src/rmtime.cpp.i
 
@@ -969,36 +933,9 @@ others/src/rmtime.s: others/src/rmtime.cpp.s
 
 # target to generate assembly for a file
 others/src/rmtime.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/others/src/rmtime.cpp.s
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/others/src/rmtime.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/others/src/rmtime.cpp.s
 .PHONY : others/src/rmtime.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -1008,7 +945,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
+	@echo "... calibrate"
 	@echo "... rmcv"
 	@echo "... armor/src/armor_finder/anti_top/anti_top.o"
 	@echo "... armor/src/armor_finder/anti_top/anti_top.i"
@@ -1043,6 +980,9 @@ help:
 	@echo "... armor/src/show_images/show_images.o"
 	@echo "... armor/src/show_images/show_images.i"
 	@echo "... armor/src/show_images/show_images.s"
+	@echo "... calibrate_get_imgs.o"
+	@echo "... calibrate_get_imgs.i"
+	@echo "... calibrate_get_imgs.s"
 	@echo "... com/src/impl/list_ports/list_ports_linux.o"
 	@echo "... com/src/impl/list_ports/list_ports_linux.i"
 	@echo "... com/src/impl/list_ports/list_ports_linux.s"
@@ -1094,9 +1034,6 @@ help:
 	@echo "... others/src/rmtime.o"
 	@echo "... others/src/rmtime.i"
 	@echo "... others/src/rmtime.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 

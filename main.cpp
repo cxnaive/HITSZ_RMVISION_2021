@@ -63,7 +63,7 @@ int main(int argc, char** argv) {
         if(config.show_origin){
             cv::imshow("origin",src);
             cv::waitKey(1);           
-        }
+        } 
         armor_finder->run(src);
     }
     LOG(INFO) << "exiting...";

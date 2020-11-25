@@ -1,16 +1,33 @@
 {
+	"camera" : 
+	{
+		"cx" : 535.62592816442304,
+		"cy" : 233.62330137180103,
+		"fx" : 1550.4234875315574,
+		"fy" : 1535.5513322172942,
+		"k1" : -0.079081831457415069,
+		"k2" : -0.77664782690205392,
+		"k3" : 5.1326842606717005,
+		"p1" : 0.0010516368549415474,
+		"p2" : -0.016213145508191806
+	},
 	"config" : 
 	{
-		"show_armor_box" : true,
+		"save_labelled_boxes" : false,
+		"save_video" : false,
+		"show_armor_box" : false,
 		"show_class_id" : false,
+		"show_light_blobs" : false,
 		"show_light_box" : false,
 		"show_origin" : true,
 		"wait_uart" : false
 	},
 	"config_data" : 
 	{
+		"ANTI_TOP" : 0,
 		"ARMOR_CAMERA_EXPOSURE" : 4000,
-		"ARMOR_CAMERA_GAIN" : 12,
+		"ARMOR_CAMERA_GAIN" : 8,
+		"ENEMY_COLOR" : 1,
 		"ENERGY_CAMERA_EXPOSURE" : 4000,
 		"ENERGY_CAMERA_GAIN" : 5
 	}

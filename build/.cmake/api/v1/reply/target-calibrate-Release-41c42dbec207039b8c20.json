@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "rmcv"
+			"path" : "calibrate"
 		}
 	],
 	"backtrace" : 1,
@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 28,
+				"line" : 31,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -140,37 +140,16 @@
 			"sourceIndexes" : 
 			[
 				0,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
+				18,
+				19,
 				20,
-				21,
 				22,
 				23,
-				24,
-				25,
-				26,
-				30,
-				31,
-				33,
-				51,
-				52,
-				53,
-				55,
-				56,
-				57
+				24
 			]
 		}
 	],
-	"id" : "rmcv::@6890427a1f51a3e7e1df",
+	"id" : "calibrate::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -480,8 +459,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "rmcv",
-	"nameOnDisk" : "rmcv",
+	"name" : "calibrate",
+	"nameOnDisk" : "calibrate",
 	"paths" : 
 	{
 		"build" : ".",
@@ -494,6 +473,21 @@
 			"sourceIndexes" : 
 			[
 				0,
+				18,
+				19,
+				20,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
 				4,
 				5,
 				6,
@@ -505,58 +499,10 @@
 				12,
 				13,
 				14,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				30,
-				31,
-				33,
-				51,
-				52,
-				53,
-				55,
-				56,
-				57
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				1,
-				2,
-				3,
 				15,
 				16,
 				17,
-				18,
-				19,
-				27,
-				28,
-				29,
-				32,
-				34,
-				35,
-				36,
-				37,
-				38,
-				39,
-				40,
-				41,
-				42,
-				43,
-				44,
-				45,
-				46,
-				47,
-				48,
-				49,
-				50,
-				54
+				21
 			]
 		}
 	],
@@ -565,193 +511,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "armor/include/armor_finder/armor_finder.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "armor/include/armor_finder/classifier/classifier.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "armor/include/show_images/show_images.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/anti_top/anti_top.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/armor_box/armor_box.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/armor_finder.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/classifier/classifier.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/find/find_armor_box.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/find/find_light_blobs.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/searching_state/searching_state.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/send_target/send_target.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/standby_state/standby_state.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/armor_finder/tracking_state/tracking_state.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "armor/src/show_images/show_images.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "com/include/rmserial.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "com/include/serial/impl/unix.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "com/include/serial/impl/win.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "com/include/serial/serial.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "com/include/serial/v8stdint.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "com/src/impl/list_ports/list_ports_linux.cc",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "com/src/impl/list_ports/list_ports_osx.cc",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "com/src/impl/list_ports/list_ports_win.cc",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "com/src/impl/unix.cc",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "com/src/impl/win.cc",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "com/src/rmserial.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "com/src/serial.cc",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "config/include/constants.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "config/include/rmconfig.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "config/include/runtime.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "config/src/rmconfig.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "config/src/runtime.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "net/include/NumberDetector.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "net/src/NumberDetector.cpp",
+			"path" : "calibrate_get_imgs.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
