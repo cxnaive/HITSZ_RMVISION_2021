@@ -6,6 +6,7 @@
 #include <show_images/show_images.h>
 #include <opencv2/highgui.hpp>
 #include <runtime.h>
+#include <vector>
 
 // 判断两个灯条的角度差
 static bool angelJudge(const LightBlob &light_blob_i, const LightBlob &light_blob_j) {
@@ -75,6 +76,7 @@ static bool isCoupleLight(const LightBlob &light_blob_i, const LightBlob &light_
            CuoWeiDuJudge(light_blob_i, light_blob_j);
 
 }
+
 // 匹配所有灯条，得出装甲板候选区
 bool ArmorFinder::matchArmorBoxes(const cv::Mat &src, const LightBlobs &light_blobs, ArmorBoxes &armor_boxes) {
     armor_boxes.clear();

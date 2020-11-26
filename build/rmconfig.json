@@ -15,7 +15,7 @@
 	{
 		"save_labelled_boxes" : false,
 		"save_video" : false,
-		"show_armor_box" : false,
+		"show_armor_box" : true,
 		"show_class_id" : false,
 		"show_light_blobs" : false,
 		"show_light_box" : false,
@@ -26,7 +26,7 @@
 	{
 		"ANTI_TOP" : 0,
 		"ARMOR_CAMERA_EXPOSURE" : 4000,
-		"ARMOR_CAMERA_GAIN" : 8,
+		"ARMOR_CAMERA_GAIN" : 7,
 		"ENEMY_COLOR" : 1,
 		"ENERGY_CAMERA_EXPOSURE" : 4000,
 		"ENERGY_CAMERA_GAIN" : 5

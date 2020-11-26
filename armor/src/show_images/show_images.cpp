@@ -21,6 +21,14 @@ void drawLightBlobs(cv::Mat &src, const LightBlobs &blobs) {
     }
 }
 
+void drawRotatedRect(cv::Mat &src,const cv::RotatedRect &rect,Scalar color = Scalar(128,0,128)){
+    Point2f tmp[4];
+    rect.points(tmp);
+    for(int i = 0;i < 4;++i){
+        cv::line(src,tmp[i],tmp[(i + 1) % 4],color,1);
+    }
+}
+
 /**************************
  *     显示多个装甲板区域    *
  **************************/
@@ -32,7 +40,6 @@ void showArmorBoxes(std::string windows_name, const cv::Mat &src,
     } else if (src.type() == CV_8UC3) {  // RGB 彩色
         image2show = src.clone();
     }
-
     for (auto &box : armor_boxes) {
         if (box.box_color == BOX_BLUE) {
             rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
@@ -101,7 +108,7 @@ void showArmorBox(std::string windows_name, const cv::Mat &src,
     //    cout << box.lengthDistanceRatio() << endl;
 
     rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
-
+    drawRotatedRect(image2show,box.getRotatedRect());
     char dist[10];
     // sprintf(dist, "%.1f", box.getBoxDistance());
     sprintf(dist, "", box.getBoxDistance());

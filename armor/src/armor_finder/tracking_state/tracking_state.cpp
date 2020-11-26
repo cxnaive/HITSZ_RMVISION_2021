@@ -41,7 +41,7 @@ bool ArmorFinder::stateTrackingTarget(cv::Mat &src) {
         }
         tracker = TrackerToUse::create();
         tracker->init(src, target_box.rect);
-    } else {  // 如果没有成功搜索目标，则使用判断是否跟丢。
+    } else {  // 如果没有成功搜索目标，则判断是否跟丢。
         roi = src(pos).clone();
         if (classifier) {  // 分类器可用，使用分类器判断。
             cv::resize(roi, roi, cv::Size(224, 224));

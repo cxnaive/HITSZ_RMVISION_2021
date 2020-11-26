@@ -100,7 +100,7 @@ void ArmorFinder::run(cv::Mat &src) {    // 自瞄主函数
         last_box = target_box;
     }
 
-    if (config.show_armor_box) {  // 根据条件显示当前目标装甲板
+    if (config.show_armor_box && target_box.rect != cv::Rect2d()) {  // 根据条件显示当前目标装甲板
         showArmorBox("box", src, target_box);
         cv::waitKey(1);
     }

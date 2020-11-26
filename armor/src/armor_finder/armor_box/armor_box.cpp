@@ -4,7 +4,19 @@
 
 ArmorBox::ArmorBox(const cv::Rect &pos, const LightBlobs &blobs, uint8_t color,
                    int i)
-    : rect(pos), light_blobs(blobs), box_color(color), id(i){};
+    : rect(pos), light_blobs(blobs), box_color(color), id(i) {
+};
+
+cv::RotatedRect ArmorBox::getRotatedRect() const{
+    if(light_blobs.size() < 2) return cv::RotatedRect(rect.tl(),rect.tl() + Point2d(rect.width,0),rect.br()); 
+    Point2f tmp[8];
+    light_blobs.at(0).rect.points(tmp);
+    light_blobs.at(1).rect.points(tmp+4);
+    auto rect_r = cv::minAreaRect(std::vector<Point2f>(tmp,tmp+8));
+    if(rect_r.size.width > rect_r.size.height) rect_r.size.height *= 2;
+    else rect_r.size.width *= 2;
+    return rect_r;
+}
 
 // 获取装甲板中心点
 cv::Point2f ArmorBox::getCenter() const {

@@ -71,7 +71,7 @@ class ArmorBox {
     double lengthDistanceRatio() const;  // 获取灯条中心距和灯条长度的比值
     double getBoxDistance() const;  // 获取装甲板到摄像头的距离
     //BoxOrientation getOrientation() const;  // 获取装甲板朝向(误差较大，已弃用)
-
+    cv::RotatedRect getRotatedRect() const;
     bool operator<(const ArmorBox &box) const;  // 装甲板优先级比较
 };
 
