@@ -17,7 +17,7 @@
 	},
 	"config" : 
 	{
-		"log_send_target" : true,
+		"log_send_target" : false,
 		"save_labelled_boxes" : false,
 		"save_video" : false,
 		"show_armor_box" : true,

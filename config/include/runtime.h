@@ -12,8 +12,7 @@
 
 void saveVideos(cv::Mat& img,std::string prefix);
 double getPointLength(const cv::Point2f &p);
-std::vector<cv::Point2f> getArmorPoints(ArmorBox armor);
-void armorSolvePnP(ArmorBox armor,cv::Point3d &rotate_eular,cv::Point3d &translation);
+
 extern RmConfig config;
 extern RmTime rmTime;
 extern cv::Mat src; 

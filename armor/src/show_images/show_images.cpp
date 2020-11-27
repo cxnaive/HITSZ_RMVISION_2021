@@ -106,10 +106,9 @@ void showArmorBox(std::string windows_name, const cv::Mat &src,
     //    cout << box.lengthDistanceRatio() << endl;
 
     rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
-    drawPoints4(image2show,getArmorPoints(box));
+    drawPoints4(image2show,box.getArmorPoints());
     char dist[10];
-    // sprintf(dist, "%.1f", box.getBoxDistance());
-    sprintf(dist, "", box.getBoxDistance());
+    sprintf(dist, "%.1f", box.getBoxDistance());
     if (box.id == -1)
         putText(image2show, id2name[box.id] + " " + dist,
                 Point(box.rect.x + 2, box.rect.y + 2), cv::FONT_HERSHEY_TRIPLEX,

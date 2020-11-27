@@ -60,8 +60,8 @@ void ArmorFinder::antiTop() {
         last_front_time = front_time;
     } else {
         time_seq.emplace_back(frame_time);
-        double dx = target_box.rect.x + target_box.rect.width / 2 - IMAGE_CENTER_X;
-        double yaw = atan(dx / FOCUS_PIXAL) * 180 / PI;
+        double dx = target_box.rect.x + target_box.rect.width / 2 - config.IMAGE_CENTER_X;
+        double yaw = atan(dx / config.camConfig.fx) * 180 / PI;
         angle_seq.emplace_back(yaw);
         sendBoxPosition(0);
     }

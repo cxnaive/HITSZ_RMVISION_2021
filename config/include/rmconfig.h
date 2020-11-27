@@ -52,7 +52,8 @@ public:
     int ANTI_TOP = 0;
     int ARMOR_H = 127;
     int ARMOR_W = 230;
-
+    int IMAGE_CENTER_X = 320;
+    int IMAGE_CENTER_Y = 240;
     
     //Camera
     CameraConfig camConfig;

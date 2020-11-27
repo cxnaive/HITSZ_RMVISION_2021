@@ -29,6 +29,8 @@ class ArmorBox {
     double getBlobsDistance() const;  // 获取两个灯条中心间距
     double lengthDistanceRatio() const;  // 获取灯条中心距和灯条长度的比值
     double getBoxDistance() const;  // 获取装甲板到摄像头的距离
+    std::vector<cv::Point2f> getArmorPoints() const;
+    std::pair<cv::Point3d,cv::Point3d> armorSolvePnP() const;
     //BoxOrientation getOrientation() const;  // 获取装甲板朝向(误差较大，已弃用)
     bool operator<(const ArmorBox &box) const;  // 装甲板优先级比较
 };

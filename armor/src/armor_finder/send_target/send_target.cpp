@@ -33,8 +33,8 @@ bool ArmorFinder::sendBoxPosition(uint16_t shoot_delay,double dist) {
     static double last_time = 0;
     auto rect = target_box.rect;
     if(dist == -1) {
-        Point3d rot,trans;
-        armorSolvePnP(target_box,rot,trans);
+        auto pnp_result = target_box.armorSolvePnP();
+        Point3d trans = pnp_result.second;
         dist = trans.z;
         if (config.log_send_target){
             LOG(INFO) << "PNP: " << trans;
@@ -48,8 +48,8 @@ bool ArmorFinder::sendBoxPosition(uint16_t shoot_delay,double dist) {
             fps_cnt = 0;
         }
         double y_offset = 0;
-        double yaw = atan(trans.x / FOCUS_PIXAL) * 180 / PI;           //以下几句为根据二维图像偏移给云台的值
-        double pitch = atan(trans.y / FOCUS_PIXAL) * 180 / PI;
+        double yaw = atan(trans.x / trans.z) * 180 / PI;        
+        double pitch = atan(trans.y / trans.z) * 180 / PI;
         return sendTarget(serial, yaw, -pitch, dist, shoot_delay,y_offset);
     }
     return sendTarget(serial, 0, 0, 0, shoot_delay, 0);
