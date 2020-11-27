@@ -140,8 +140,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				4,
-				5,
 				6,
 				7,
 				8,
@@ -151,22 +149,24 @@
 				12,
 				13,
 				14,
-				20,
-				21,
+				15,
+				16,
 				22,
 				23,
 				24,
 				25,
 				26,
-				30,
-				31,
+				27,
+				28,
+				32,
 				33,
-				51,
-				52,
+				35,
 				53,
+				54,
 				55,
-				56,
-				57
+				57,
+				58,
+				59
 			]
 		}
 	],
@@ -494,8 +494,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				4,
-				5,
 				6,
 				7,
 				8,
@@ -505,22 +503,24 @@
 				12,
 				13,
 				14,
-				20,
-				21,
+				15,
+				16,
 				22,
 				23,
 				24,
 				25,
 				26,
-				30,
-				31,
+				27,
+				28,
+				32,
 				33,
-				51,
-				52,
+				35,
 				53,
+				54,
 				55,
-				56,
-				57
+				57,
+				58,
+				59
 			]
 		},
 		{
@@ -530,17 +530,17 @@
 				1,
 				2,
 				3,
-				15,
-				16,
+				4,
+				5,
 				17,
 				18,
 				19,
-				27,
-				28,
+				20,
+				21,
 				29,
-				32,
+				30,
+				31,
 				34,
-				35,
 				36,
 				37,
 				38,
@@ -556,7 +556,9 @@
 				48,
 				49,
 				50,
-				54
+				51,
+				52,
+				56
 			]
 		}
 	],
@@ -570,12 +572,22 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "armor/include/armor_finder/armor_box.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "armor/include/armor_finder/armor_finder.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"path" : "armor/include/armor_finder/classifier/classifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "armor/include/armor_finder/light_blobs.h",
 			"sourceGroupIndex" : 1
 		},
 		{

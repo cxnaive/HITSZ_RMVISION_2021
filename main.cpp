@@ -28,6 +28,8 @@ RmSerial rmSerial;
 Camera* cam = nullptr;
 //ArmorFinder实例
 ArmorFinder* armor_finder;
+//运行时原图实例
+cv::Mat src;
 static void OnInit(const char* cmd) {
     FLAGS_alsologtostderr = true;
     FLAGS_colorlogtostderr = true;
@@ -55,11 +57,11 @@ static void OnClose() {
 int main(int argc, char** argv) {
     signal(SIGINT, sig_handler);
     OnInit(argv[0]);
-    cv::Mat src;
     int frame_cnt = 0;
     double stime = rmTime.seconds();
     while (keepRunning) {
         cam->read(src);
+        config.camConfig.undistort(src);
         if(config.show_origin){
             cv::imshow("origin",src);
             cv::waitKey(1);           

@@ -1,5 +1,12 @@
 #include <rmconfig.h>
 
+void CameraConfig::init() {
+    mtx = (cv::Mat_<double>(3, 3) << fx, 0, cx, 0, fy, cy, 0, 0, 1);
+    dist = (cv::Mat_<double>(1, 5) << k1, k2, p1, p2, k3);
+    cv::initUndistortRectifyMap(mtx, dist, cv::noArray(), mtx,
+                                cv::Size(640, 480), CV_32FC1, mapx, mapy);
+}
+
 void RmConfig::init_from_file() {
     std::ifstream ifs;
     ifs.open(configPath);
@@ -26,6 +33,7 @@ void RmConfig::init_from_file() {
     save_video = config["save_video"].asBool();
     show_light_blobs = config["show_light_blobs"].asBool();
     save_labelled_boxes = config["save_labelled_boxes"].asBool();
+    show_pnp_axies = config["show_pnp_axies"].asBool();
 
     // data
     Json::Value data = root["config_data"];
@@ -36,7 +44,7 @@ void RmConfig::init_from_file() {
     ENEMY_COLOR = data["ENEMY_COLOR"].asInt();
     ANTI_TOP = data["ANTI_TOP"].asInt();
 
-    //camera
+    // camera
     Json::Value camera = root["camera"];
     camConfig.fx = camera["fx"].asDouble();
     camConfig.fy = camera["fy"].asDouble();
@@ -64,7 +72,7 @@ void RmConfig::write_to_file() {
     config["save_video"] = save_video;
     config["show_light_blobs"] = show_light_blobs;
     config["save_labelled_boxes"] = save_labelled_boxes;
-
+    config["show_pnp_axies"] = show_pnp_axies;
 
     // data
     Json::Value data;
@@ -75,7 +83,7 @@ void RmConfig::write_to_file() {
     data["ENEMY_COLOR"] = ENEMY_COLOR;
     data["ANTI_TOP"] = ANTI_TOP;
 
-    //camera
+    // camera
     Json::Value camera;
     camera["fx"] = camConfig.fx;
     camera["fy"] = camConfig.fy;

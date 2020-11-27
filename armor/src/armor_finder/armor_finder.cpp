@@ -76,8 +76,8 @@ void ArmorFinder::run(cv::Mat &src) {    // 自瞄主函数
                 ++tracking_cnt > 100) {  // 最多追踪100帧图像
                 state = SEARCHING_STATE;
                 LOG(INFO) << "into search!";
-                send = false;
             }
+            else send = true;
             break;
         case STANDBY_STATE:
         default:

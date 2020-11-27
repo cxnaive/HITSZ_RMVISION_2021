@@ -3,8 +3,6 @@
 #include <cmath>
 #include <armor_finder/classifier/classifier.h>
 #include <rmserial.h>
-#define WITH_COUNT_FPS
-
 
 static bool sendTarget(RmSerial &serial, double x, double y, double z, uint16_t shoot_delay,double y_offset = 0) {
     static short x_tmp, y_tmp, z_tmp;
@@ -12,18 +10,6 @@ static bool sendTarget(RmSerial &serial, double x, double y, double z, uint16_t 
     x_tmp = static_cast<short>(x);
     y_tmp = static_cast<short>(y);
     z_tmp = static_cast<short>(z);
-#ifdef WITH_COUNT_FPS
-    static time_t last_time = time(nullptr);
-    static int fps;
-    time_t t = time(nullptr);
-    if (last_time != t) {
-        last_time = t;
-        LOG(INFO) << "Armor: fps:" << fps << ", (" << x << "," << y << "," << z << ")";
-        fps = 0;
-    }
-    fps += 1;
-#endif
-
 
     buff[0] = 's';
     buff[1] = static_cast<char>((x_tmp >> 8) & 0xFF);
@@ -46,7 +32,13 @@ bool ArmorFinder::sendBoxPosition(uint16_t shoot_delay,double dist) {
     }
 
     auto rect = target_box.rect;
-    if(dist == -1) dist = DISTANCE_HEIGHT / rect.height;
+    if(dist == -1) {
+        
+        Point3d rot,trans;
+        armorSolvePnP(target_box,rot,trans);
+        LOG(INFO) << "PNP: " << trans;
+        dist = trans.z;
+    }
     double y_offset = 300*50 / dist;
     double dx = rect.x + rect.width / 2 - IMAGE_CENTER_X;
     double dy = rect.y + rect.height / 2 - IMAGE_CENTER_Y;
@@ -58,5 +50,3 @@ bool ArmorFinder::sendBoxPosition(uint16_t shoot_delay,double dist) {
     //cout<< "pitch: " << pitch << " dist: "<<dist<<endl;
     return sendTarget(serial, yaw, -pitch, dist, shoot_delay,y_offset);
 }
-
-

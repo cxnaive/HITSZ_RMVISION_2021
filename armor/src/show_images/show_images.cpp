@@ -21,11 +21,9 @@ void drawLightBlobs(cv::Mat &src, const LightBlobs &blobs) {
     }
 }
 
-void drawRotatedRect(cv::Mat &src,const cv::RotatedRect &rect,Scalar color = Scalar(128,0,128)){
-    Point2f tmp[4];
-    rect.points(tmp);
+void drawPoints4(cv::Mat &src,const vector<Point2f> &points,Scalar color = Scalar(128,0,128)){
     for(int i = 0;i < 4;++i){
-        cv::line(src,tmp[i],tmp[(i + 1) % 4],color,1);
+        cv::line(src,points[i],points[(i + 1) % 4],color,1);
     }
 }
 
@@ -108,7 +106,7 @@ void showArmorBox(std::string windows_name, const cv::Mat &src,
     //    cout << box.lengthDistanceRatio() << endl;
 
     rectangle(image2show, box.rect, Scalar(0, 255, 0), 1);
-    drawRotatedRect(image2show,box.getRotatedRect());
+    drawPoints4(image2show,getArmorPoints(box));
     char dist[10];
     // sprintf(dist, "%.1f", box.getBoxDistance());
     sprintf(dist, "", box.getBoxDistance());

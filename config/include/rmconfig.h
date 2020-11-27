@@ -17,14 +17,11 @@ public:
     cv::Mat getDistCoeff(){
         return dist;
     }
-    void init(){
-        mtx = (cv::Mat_<double>(3,3) << fx,0,cx,0,fy,cy,0,0,1);
-        dist = (cv::Mat_<double>(1,5) << k1,k2,p1,p2,k3);
-        cv::initUndistortRectifyMap(mtx, dist, cv::noArray(), mtx, cv::Size(640,480), CV_32FC1, mapx, mapy);
-    }
-    void Undistort(cv::Mat frame){
+    void init();
+    void undistort(cv::Mat& frame){
         remap(frame,frame,mapx,mapy, cv::INTER_LINEAR);
     }
+    
 };
 class RmConfig{
 public:
@@ -38,6 +35,7 @@ public:
     bool save_video = false;
     bool show_light_blobs = false;
     bool save_labelled_boxes = false;
+    bool show_pnp_axies = false;
 
     //DATA
     int ARMOR_CAMERA_EXPOSURE = 4000;
@@ -46,6 +44,9 @@ public:
     int ENERGY_CAMERA_GAIN = 5;
     int ENEMY_COLOR = ENEMY_RED;
     int ANTI_TOP = 0;
+    int ARMOR_H = 127;
+    int ARMOR_W = 230;
+
     
     //Camera
     CameraConfig camConfig;
