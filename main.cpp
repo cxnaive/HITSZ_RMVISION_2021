@@ -40,7 +40,7 @@ static void OnInit(const char* cmd) {
     
     rmSerial.init();
 
-    cam = new Camera(1);
+    cam = new Camera(1,config.camConfig);
     cam->init();
     cam->setParam(config.ARMOR_CAMERA_EXPOSURE, config.ARMOR_CAMERA_GAIN);
     cam->start();
@@ -60,7 +60,7 @@ int main(int argc, char** argv) {
     int frame_cnt = 0;
     double stime = rmTime.seconds();
     while (keepRunning) {
-        cam->read(src);
+        cam->read(src); 
         config.camConfig.undistort(src);
         if(config.show_origin){
             cv::imshow("origin",src);

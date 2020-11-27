@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.o"
+  "CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o"
   "CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o"
   "CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o"
   "CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o"

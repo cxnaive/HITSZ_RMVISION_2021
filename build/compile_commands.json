@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
+  "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp",
+  "file": "/home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp"
+},
+{
+  "directory": "/home/chenxun/HITSZ_RMVISION_2021/build",
   "command": "/bin/g++-9  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -I/home/chenxun/HITSZ_RMVISION_2021/energy/include -I/home/chenxun/HITSZ_RMVISION_2021/armor/include -I/home/chenxun/HITSZ_RMVISION_2021/net/include -I/home/chenxun/HITSZ_RMVISION_2021/others/include -I/home/chenxun/HITSZ_RMVISION_2021/config/include -I/home/chenxun/HITSZ_RMVISION_2021/com/include -isystem /usr/local/include/opencv4   -O3 -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp",
   "file": "/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp"
 },

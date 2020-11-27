@@ -10,6 +10,7 @@
 #include "DxImageProc.h"
 #include "iostream"
 #include "wrapper_head.h"
+#include <rmconfig.h>
 #include <opencv2/core/core.hpp>
 
 
@@ -27,6 +28,9 @@ private:
     GX_FRAME_DATA g_frameData;
     int64_t g_nPixelFormat;
     int64_t g_nColorFilter;
+    int64_t g_SensorHeight;
+    int64_t g_SensorWidth;
+    CameraConfig camConfig;
     cv::Mat p_img;
     void *g_pRGBframeData;
     void *g_pRaw8Buffer;
@@ -34,14 +38,14 @@ private:
     bool init_success;
 
 public:
-    Camera(int idx);			        // constructor, p_img is a pointer towards a 480*640 8uc3 Mat type
+    Camera(int idx,CameraConfig config);			        // constructor, p_img is a pointer towards a 480*640 8uc3 Mat type
     ~Camera();
     
     bool init() final;                                        // init camera lib and do settings, be called firstly
     void setParam(int exposureInput, int gainInput); 	// set exposure and gain
     void start();					                    // start video stream
     void stop();					                    // stop receiving frames
-
+    void calcRoi(); //autmatic resize parameters
     bool init_is_successful();				            // return video is available or not
     bool read(cv::Mat &src) final;
 };

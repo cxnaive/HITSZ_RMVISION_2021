@@ -2,6 +2,7 @@
 #include<glog/logging.h>
 #include<opencv2/opencv.hpp>
 #include<string>
+#include <rmconfig.h>
 
 int img_cnt = 30;
 
@@ -9,7 +10,9 @@ int main(int argc, char** argv){
     FLAGS_alsologtostderr = true;
     FLAGS_colorlogtostderr = true;
     google::InitGoogleLogging(argv[0]);
-    Camera cam(1);
+    RmConfig config;
+    config.init_from_file();
+    Camera cam(1,config.camConfig);
     cam.init();
     if(!cam.init_is_successful()){
         LOG(ERROR) << "unable to open camera";

@@ -5,11 +5,11 @@
 #ifndef _ARMOR_FINDER_H_
 #define _ARMOR_FINDER_H_
 
+#include <armor_finder/armor_box.h>
 #include <armor_finder/classifier/classifier.h>
+#include <armor_finder/light_blobs.h>
 #include <rmserial.h>
 #include <runtime.h>
-#include <armor_finder/armor_box.h>
-#include <armor_finder/light_blobs.h>
 
 #include <map>
 #include <opencv2/core.hpp>
@@ -21,18 +21,10 @@
 #define BOX_RED ENEMY_RED
 #define BOX_BLUE ENEMY_BLUE
 
-#define IMAGE_CENTER_X (320)
-#define IMAGE_CENTER_Y (240)
-
-#define DISTANCE_HEIGHT_5MM (10700.0)  // 单位: cm*pixel
-#define DISTANCE_HEIGHT DISTANCE_HEIGHT_5MM
-
 extern std::map<int, string> id2name;  //装甲板id到名称的map
 extern std::map<string, int> name2id;  //装甲板名称到id的map
 extern std::map<string, int> prior_blue;
 extern std::map<string, int> prior_red;
-
-
 
 /********************* 自瞄类定义 **********************/
 class ArmorFinder {
@@ -49,10 +41,10 @@ class ArmorFinder {
         STANDBY_STATE
     } State;  // 自瞄状态枚举定义
 
-    double frame_time;           // 当前帧对应时间
+    double frame_time;       // 当前帧对应时间
     const int &enemy_color;  // 敌方颜色，引用外部变量，自动变化
     const int &is_anti_top;  // 进入反陀螺，引用外部变量，自动变化
-    State state;                 // 自瞄状态对象实例
+    State state;             // 自瞄状态对象实例
     ArmorBox target_box, last_box;  // 目标装甲板
     int anti_switch_cnt;            // 防止乱切目标计数器
     cv::Ptr<cv::Tracker> tracker;   // tracker对象实例

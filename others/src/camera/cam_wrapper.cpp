@@ -99,24 +99,27 @@ void getRGBImage(Camera *p_cam) {
                     p_cam->g_frameData.nHeight, p_cam->g_nPixelFormat,
                     p_cam->g_nColorFilter);
 
-        cv::Mat temp(480, 640, CV_8UC3);
+        cv::Mat temp(p_cam->camConfig.roi_height, p_cam->camConfig.roi_width, CV_8UC3);
 
         memcpy(temp.data, p_cam->g_pRGBframeData, 3 * (p_cam->nPayLoadSize));
 
         std::vector<cv::Mat> channels;
         split(temp, channels);
         std::swap(channels[0], channels[2]);
+        merge(channels,temp);
+        cv::resize(temp,temp,cv::Size(640,480));
         mtx.lock();
-        merge(channels, p_cam->p_img);
+        temp.copyTo(p_cam->p_img);
         mtx.unlock();
     }
 }
 
-Camera::Camera(int idx):
+Camera::Camera(int idx,CameraConfig config):
       index(idx),
       exposure(5000),
       gain(0),
       thread_running(false),
+      camConfig(config),
       init_success(false){
           p_img = cv::Mat(480,640,CV_8UC3);
       };
@@ -140,6 +143,10 @@ bool Camera::init() {
     GXUpdateDeviceList(&nDeviceNum, 1000);
     if (nDeviceNum >= 1) {
         GXOpenDeviceByIndex(index, &g_hDevice);
+        
+        GXGetInt(g_hDevice,GX_INT_SENSOR_WIDTH,&g_SensorWidth);
+        GXGetInt(g_hDevice,GX_INT_SENSOR_HEIGHT,&g_SensorHeight);
+        LOG(WARNING) << "Camera Sensor: " << g_SensorWidth << " X " << g_SensorHeight; 
 
         GXSetEnum(g_hDevice, GX_ENUM_EXPOSURE_AUTO, GX_EXPOSURE_AUTO_OFF);
         GXSetEnum(g_hDevice, GX_ENUM_GAIN_AUTO, GX_GAIN_AUTO_OFF);
@@ -151,10 +158,11 @@ bool Camera::init() {
 
         GXSetEnum(g_hDevice, GX_ENUM_ACQUISITION_MODE, GX_ACQ_MODE_CONTINUOUS);
         GXSetInt(g_hDevice, GX_INT_ACQUISITION_SPEED_LEVEL, 4);
-        GXSetInt(g_hDevice, GX_INT_OFFSET_X, 8);
-        GXSetInt(g_hDevice, GX_INT_OFFSET_Y, 6);
-        GXSetInt(g_hDevice, GX_INT_WIDTH, 640);
-        GXSetInt(g_hDevice, GX_INT_HEIGHT, 480);
+        
+        GXSetInt(g_hDevice, GX_INT_OFFSET_X, camConfig.roi_offset_x);
+        GXSetInt(g_hDevice, GX_INT_OFFSET_Y, camConfig.roi_offset_y);
+        GXSetInt(g_hDevice, GX_INT_WIDTH, camConfig.roi_width);
+        GXSetInt(g_hDevice, GX_INT_HEIGHT, camConfig.roi_height);
 
         GXSetFloat(g_hDevice, GX_FLOAT_EXPOSURE_TIME, exposure);
         GXSetFloat(g_hDevice, GX_FLOAT_GAIN, gain);

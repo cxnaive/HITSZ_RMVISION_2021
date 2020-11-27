@@ -13,15 +13,15 @@ armor_finder/light_blobs.h
 -
 
 ../armor/include/armor_finder/armor_finder.h
+armor_finder/armor_box.h
+-
 armor_finder/classifier/classifier.h
+-
+armor_finder/light_blobs.h
 -
 rmserial.h
 -
 runtime.h
--
-armor_finder/armor_box.h
--
-armor_finder/light_blobs.h
 -
 map
 -
@@ -149,18 +149,10 @@ iostream
 ../others/include/camera/iostream
 wrapper_head.h
 ../others/include/camera/wrapper_head.h
+rmconfig.h
+-
 opencv2/core/core.hpp
 -
-
-../others/include/camera/video_wrapper.h
-opencv2/core/core.hpp
--
-opencv2/highgui/highgui.hpp
--
-opencv2/imgproc/imgproc.hpp
--
-wrapper_head.h
-../others/include/camera/wrapper_head.h
 
 ../others/include/camera/wrapper_head.h
 opencv2/core/core.hpp
@@ -346,18 +338,6 @@ show_images/show_images.h
 opencv2/highgui.hpp
 -
 
-/home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp
-rmconfig.h
--
-
-/home/chenxun/HITSZ_RMVISION_2021/config/src/runtime.cpp
-runtime.h
--
-map
--
-cmath
--
-
 /home/chenxun/HITSZ_RMVISION_2021/main.cpp
 camera/cam_wrapper.h
 -
@@ -377,16 +357,6 @@ mutex
 -
 opencv2/opencv.hpp
 -
-
-/home/chenxun/HITSZ_RMVISION_2021/net/src/NumberDetector.cpp
-NumberDetector.h
--
-MNN/ImageProcess.hpp
--
-
-/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp
-camera/video_wrapper.h
-/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/camera/video_wrapper.h
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp
 opencv2/core.hpp
@@ -1234,10 +1204,6 @@ opencv2/imgcodecs.hpp
 opencv2/videoio.hpp
 /usr/local/include/opencv4/opencv2/opencv2/videoio.hpp
 
-/usr/local/include/opencv4/opencv2/highgui/highgui.hpp
-opencv2/highgui.hpp
-/usr/local/include/opencv4/opencv2/highgui/opencv2/highgui.hpp
-
 /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
@@ -1245,10 +1211,6 @@ opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/imgproc.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
-
-/usr/local/include/opencv4/opencv2/imgproc/imgproc.hpp
-opencv2/imgproc.hpp
-/usr/local/include/opencv4/opencv2/imgproc/opencv2/imgproc.hpp
 
 /usr/local/include/opencv4/opencv2/imgproc/types_c.h
 opencv2/core/core_c.h

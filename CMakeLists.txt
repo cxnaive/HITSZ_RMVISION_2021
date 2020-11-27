@@ -25,7 +25,7 @@ file(GLOB_RECURSE sourcefiles
 "armor/**/*.h" "armor/**/*.cpp"
 )
 
-file(GLOB_RECURSE camfiles "others/**/*.h" "others/**/*.cpp")
+file(GLOB_RECURSE camfiles "others/**/*.h" "others/**/*.cpp" "config/src/rmconfig.cpp" "config/include/rmconfig.h")
 
 add_executable(rmcv main.cpp ${sourcefiles})
 add_executable(calibrate calibrate_get_imgs.cpp ${camfiles})

@@ -70,9 +70,22 @@ CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.s"
 	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/calibrate_get_imgs.cpp -o CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.s
 
+CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o: CMakeFiles/calibrate.dir/flags.make
+CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o: ../config/src/rmconfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp
+
+CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp > CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.i
+
+CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp -o CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.s
+
 CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o: CMakeFiles/calibrate.dir/flags.make
 CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o: ../others/src/camera/cam_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp
 
 CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.s: cmake_force
 
 CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o: CMakeFiles/calibrate.dir/flags.make
 CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o: ../others/src/camera/video_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp
 
 CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.s: cmake_force
 
 CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o: CMakeFiles/calibrate.dir/flags.make
 CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o: ../others/src/lib_json/json_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp
 
 CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.s: cmake_force
 
 CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o: CMakeFiles/calibrate.dir/flags.make
 CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o: ../others/src/lib_json/json_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp
 
 CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.s: cmake_force
 
 CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o: CMakeFiles/calibrate.dir/flags.make
 CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o: ../others/src/lib_json/json_writer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp
 
 CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.s: cmake_force
 
 CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o: CMakeFiles/calibrate.dir/flags.make
 CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o: ../others/src/rmtime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/rmtime.cpp
 
 CMakeFiles/calibrate.dir/others/src/rmtime.cpp.i: cmake_force
@@ -151,6 +164,7 @@ CMakeFiles/calibrate.dir/others/src/rmtime.cpp.s: cmake_force
 # Object files for target calibrate
 calibrate_OBJECTS = \
 "CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.o" \
+"CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o" \
 "CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o" \
 "CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o" \
 "CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o" \
@@ -162,6 +176,7 @@ calibrate_OBJECTS = \
 calibrate_EXTERNAL_OBJECTS =
 
 calibrate: CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.o
+calibrate: CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o
 calibrate: CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o
 calibrate: CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o
 calibrate: CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o
@@ -225,7 +240,7 @@ calibrate: /usr/local/lib/libglog.a
 calibrate: /usr/local/lib/libopencv_world.so.4.5.0
 calibrate: /usr/local/lib/libgflags.so.2.2.2
 calibrate: CMakeFiles/calibrate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable calibrate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable calibrate"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calibrate.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

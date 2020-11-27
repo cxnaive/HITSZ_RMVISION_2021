@@ -34,6 +34,7 @@ void RmConfig::init_from_file() {
     show_light_blobs = config["show_light_blobs"].asBool();
     save_labelled_boxes = config["save_labelled_boxes"].asBool();
     show_pnp_axies = config["show_pnp_axies"].asBool();
+    log_send_target = config["log_send_target"].asBool();
 
     // data
     Json::Value data = root["config_data"];
@@ -55,6 +56,10 @@ void RmConfig::init_from_file() {
     camConfig.p1 = camera["p1"].asDouble();
     camConfig.p2 = camera["p2"].asDouble();
     camConfig.k3 = camera["k3"].asDouble();
+    camConfig.roi_height = camera["roi_height"].asInt64();
+    camConfig.roi_width = camera["roi_width"].asInt64();
+    camConfig.roi_offset_x = camera["roi_offset_x"].asInt64();
+    camConfig.roi_offset_y = camera["roi_offset_y"].asInt64();
     camConfig.init();
 
     ifs.close();
@@ -73,6 +78,7 @@ void RmConfig::write_to_file() {
     config["show_light_blobs"] = show_light_blobs;
     config["save_labelled_boxes"] = save_labelled_boxes;
     config["show_pnp_axies"] = show_pnp_axies;
+    config["log_send_target"] = log_send_target;
 
     // data
     Json::Value data;
@@ -94,7 +100,11 @@ void RmConfig::write_to_file() {
     camera["p1"] = camConfig.p1;
     camera["p2"] = camConfig.p2;
     camera["k3"] = camConfig.k3;
-
+    camera["roi_height"] = camConfig.roi_height;
+    camera["roi_width"] = camConfig.roi_width;
+    camera["roi_offset_x"] = camConfig.roi_offset_x;
+    camera["roi_offset_y"] = camConfig.roi_offset_y;
+    
     root["config"] = config;
     root["config_data"] = data;
     root["camera"] = camera;

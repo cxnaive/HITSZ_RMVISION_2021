@@ -10,6 +10,11 @@
 class CameraConfig{
 public:
     double fx,fy,cx,cy,k1,k2,p1,p2,k3;
+    int64_t roi_width;
+    int64_t roi_height;
+    int64_t roi_offset_x;
+    int64_t roi_offset_y;
+
     cv::Mat mtx,dist,mapx,mapy;
     cv::Mat getCameraMatrix(){
         return mtx;
@@ -36,6 +41,7 @@ public:
     bool show_light_blobs = false;
     bool save_labelled_boxes = false;
     bool show_pnp_axies = false;
+    bool log_send_target = false;
 
     //DATA
     int ARMOR_CAMERA_EXPOSURE = 4000;

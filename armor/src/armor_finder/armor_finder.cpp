@@ -76,8 +76,8 @@ void ArmorFinder::run(cv::Mat &src) {    // 自瞄主函数
                 ++tracking_cnt > 100) {  // 最多追踪100帧图像
                 state = SEARCHING_STATE;
                 LOG(INFO) << "into search!";
-            }
-            else send = true;
+            } else
+                send = true;
             break;
         case STANDBY_STATE:
         default:
@@ -100,7 +100,8 @@ void ArmorFinder::run(cv::Mat &src) {    // 自瞄主函数
         last_box = target_box;
     }
 
-    if (config.show_armor_box && target_box.rect != cv::Rect2d()) {  // 根据条件显示当前目标装甲板
+    if (config.show_armor_box &&
+        target_box.rect != cv::Rect2d()) {  // 根据条件显示当前目标装甲板
         showArmorBox("box", src, target_box);
         cv::waitKey(1);
     }

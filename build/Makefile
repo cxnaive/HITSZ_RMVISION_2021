@@ -655,6 +655,7 @@ config/src/rmconfig.o: config/src/rmconfig.cpp.o
 
 # target to build an object file
 config/src/rmconfig.cpp.o:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.o
 .PHONY : config/src/rmconfig.cpp.o
 
@@ -664,6 +665,7 @@ config/src/rmconfig.i: config/src/rmconfig.cpp.i
 
 # target to preprocess a source file
 config/src/rmconfig.cpp.i:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.i
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.i
 .PHONY : config/src/rmconfig.cpp.i
 
@@ -673,6 +675,7 @@ config/src/rmconfig.s: config/src/rmconfig.cpp.s
 
 # target to generate assembly for a file
 config/src/rmconfig.cpp.s:
+	$(MAKE) -f CMakeFiles/calibrate.dir/build.make CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.s
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.s
 .PHONY : config/src/rmconfig.cpp.s
 
