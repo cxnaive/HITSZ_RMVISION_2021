@@ -25,14 +25,14 @@
 		"show_light_blobs" : false,
 		"show_light_box" : false,
 		"show_origin" : true,
-		"show_pnp_axies" : false,
+		"show_pnp_axies" : true,
 		"wait_uart" : false
 	},
 	"config_data" : 
 	{
 		"ANTI_TOP" : 0,
 		"ARMOR_CAMERA_EXPOSURE" : 4000,
-		"ARMOR_CAMERA_GAIN" : 5,
+		"ARMOR_CAMERA_GAIN" : 3,
 		"ENEMY_COLOR" : 1,
 		"ENERGY_CAMERA_EXPOSURE" : 4000,
 		"ENERGY_CAMERA_GAIN" : 5
