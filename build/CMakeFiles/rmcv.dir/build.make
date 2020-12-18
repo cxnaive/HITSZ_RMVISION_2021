@@ -330,9 +330,321 @@ CMakeFiles/rmcv.dir/config/src/runtime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/config/src/runtime.cpp.s"
 	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/config/src/runtime.cpp -o CMakeFiles/rmcv.dir/config/src/runtime.cpp.s
 
+CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.o: ../energy/src/calibrate/split.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/calibrate/split.cpp
+
+CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/calibrate/split.cpp > CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/calibrate/split.cpp -o CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.o: ../energy/src/calibrate/structing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/calibrate/structing.cpp
+
+CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/calibrate/structing.cpp > CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/calibrate/structing.cpp -o CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.o: ../energy/src/change/mode_change.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/mode_change.cpp
+
+CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/mode_change.cpp > CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/mode_change.cpp -o CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.o: ../energy/src/change/multiple_mode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/multiple_mode.cpp
+
+CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/multiple_mode.cpp > CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/multiple_mode.cpp -o CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.o: ../energy/src/change/target_change.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/target_change.cpp
+
+CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/target_change.cpp > CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/change/target_change.cpp -o CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.o: ../energy/src/clear/clear.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/clear/clear.cpp
+
+CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/clear/clear.cpp > CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/clear/clear.cpp -o CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.o: ../energy/src/clear/energy_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/clear/energy_init.cpp
+
+CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/clear/energy_init.cpp > CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/clear/energy_init.cpp -o CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/energy.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/energy.cpp.o: ../energy/src/energy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/rmcv.dir/energy/src/energy.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/energy.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/energy.cpp
+
+CMakeFiles/rmcv.dir/energy/src/energy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/energy.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/energy.cpp > CMakeFiles/rmcv.dir/energy/src/energy.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/energy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/energy.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/energy.cpp -o CMakeFiles/rmcv.dir/energy/src/energy.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.o: ../energy/src/find/energy_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/find/energy_finder.cpp
+
+CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/find/energy_finder.cpp > CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/find/energy_finder.cpp -o CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.o: ../energy/src/find/target_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/find/target_finder.cpp
+
+CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/find/target_finder.cpp > CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/find/target_finder.cpp -o CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.o: ../energy/src/get/get_aim_point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_aim_point.cpp
+
+CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_aim_point.cpp > CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_aim_point.cpp -o CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.o: ../energy/src/get/get_center.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_center.cpp
+
+CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_center.cpp > CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_center.cpp -o CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.o: ../energy/src/get/get_guess_point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_guess_point.cpp
+
+CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_guess_point.cpp > CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_guess_point.cpp -o CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.o: ../energy/src/get/get_polar_angle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_polar_angle.cpp
+
+CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_polar_angle.cpp > CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_polar_angle.cpp -o CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.o: ../energy/src/get/get_predict_point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_predict_point.cpp
+
+CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_predict_point.cpp > CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/get/get_predict_point.cpp -o CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.o: ../energy/src/judge/judge_contour.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_contour.cpp
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_contour.cpp > CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_contour.cpp -o CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.o: ../energy/src/judge/judge_mode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_mode.cpp
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_mode.cpp > CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_mode.cpp -o CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.o: ../energy/src/judge/judge_shoot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_shoot.cpp
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_shoot.cpp > CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_shoot.cpp -o CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.o: ../energy/src/judge/judge_time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_time.cpp
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_time.cpp > CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/judge/judge_time.cpp -o CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.o: ../energy/src/mark/mark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/mark/mark.cpp
+
+CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/mark/mark.cpp > CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/mark/mark.cpp -o CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/run.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/run.cpp.o: ../energy/src/run.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/rmcv.dir/energy/src/run.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/run.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/run.cpp
+
+CMakeFiles/rmcv.dir/energy/src/run.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/run.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/run.cpp > CMakeFiles/rmcv.dir/energy/src/run.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/run.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/run.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/run.cpp -o CMakeFiles/rmcv.dir/energy/src/run.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/send/send.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/send/send.cpp.o: ../energy/src/send/send.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/rmcv.dir/energy/src/send/send.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/send/send.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/send/send.cpp
+
+CMakeFiles/rmcv.dir/energy/src/send/send.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/send/send.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/send/send.cpp > CMakeFiles/rmcv.dir/energy/src/send/send.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/send/send.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/send/send.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/send/send.cpp -o CMakeFiles/rmcv.dir/energy/src/send/send.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/show/show.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/show/show.cpp.o: ../energy/src/show/show.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/rmcv.dir/energy/src/show/show.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/show/show.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/show/show.cpp
+
+CMakeFiles/rmcv.dir/energy/src/show/show.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/show/show.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/show/show.cpp > CMakeFiles/rmcv.dir/energy/src/show/show.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/show/show.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/show/show.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/show/show.cpp -o CMakeFiles/rmcv.dir/energy/src/show/show.cpp.s
+
+CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.o: CMakeFiles/rmcv.dir/flags.make
+CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.o: ../energy/src/tool/tool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/energy/src/tool/tool.cpp
+
+CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/chenxun/HITSZ_RMVISION_2021/energy/src/tool/tool.cpp > CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.i
+
+CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/chenxun/HITSZ_RMVISION_2021/energy/src/tool/tool.cpp -o CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.s
+
 CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o: CMakeFiles/rmcv.dir/flags.make
 CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o: ../net/src/NumberDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/net/src/NumberDetector.cpp
 
 CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.i: cmake_force
@@ -345,7 +657,7 @@ CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.s: cmake_force
 
 CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o: CMakeFiles/rmcv.dir/flags.make
 CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o: ../others/src/camera/cam_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp
 
 CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.i: cmake_force
@@ -358,7 +670,7 @@ CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.s: cmake_force
 
 CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o: CMakeFiles/rmcv.dir/flags.make
 CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o: ../others/src/camera/video_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp
 
 CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.i: cmake_force
@@ -371,7 +683,7 @@ CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.s: cmake_force
 
 CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.o: CMakeFiles/rmcv.dir/flags.make
 CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.o: ../others/src/lib_json/json_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp
 
 CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.i: cmake_force
@@ -384,7 +696,7 @@ CMakeFiles/rmcv.dir/others/src/lib_json/json_reader.cpp.s: cmake_force
 
 CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.o: CMakeFiles/rmcv.dir/flags.make
 CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.o: ../others/src/lib_json/json_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp
 
 CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.i: cmake_force
@@ -397,7 +709,7 @@ CMakeFiles/rmcv.dir/others/src/lib_json/json_value.cpp.s: cmake_force
 
 CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.o: CMakeFiles/rmcv.dir/flags.make
 CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.o: ../others/src/lib_json/json_writer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp
 
 CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.i: cmake_force
@@ -410,7 +722,7 @@ CMakeFiles/rmcv.dir/others/src/lib_json/json_writer.cpp.s: cmake_force
 
 CMakeFiles/rmcv.dir/others/src/rmtime.cpp.o: CMakeFiles/rmcv.dir/flags.make
 CMakeFiles/rmcv.dir/others/src/rmtime.cpp.o: ../others/src/rmtime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/rmcv.dir/others/src/rmtime.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/rmcv.dir/others/src/rmtime.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rmcv.dir/others/src/rmtime.cpp.o -c /home/chenxun/HITSZ_RMVISION_2021/others/src/rmtime.cpp
 
 CMakeFiles/rmcv.dir/others/src/rmtime.cpp.i: cmake_force
@@ -444,6 +756,30 @@ rmcv_OBJECTS = \
 "CMakeFiles/rmcv.dir/com/src/serial.cc.o" \
 "CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.o" \
 "CMakeFiles/rmcv.dir/config/src/runtime.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/energy.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/run.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/send/send.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/show/show.cpp.o" \
+"CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.o" \
 "CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o" \
 "CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o" \
 "CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o" \
@@ -476,6 +812,30 @@ rmcv: CMakeFiles/rmcv.dir/com/src/rmserial.cpp.o
 rmcv: CMakeFiles/rmcv.dir/com/src/serial.cc.o
 rmcv: CMakeFiles/rmcv.dir/config/src/rmconfig.cpp.o
 rmcv: CMakeFiles/rmcv.dir/config/src/runtime.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/energy.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/run.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/send/send.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/show/show.cpp.o
+rmcv: CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.o
 rmcv: CMakeFiles/rmcv.dir/net/src/NumberDetector.cpp.o
 rmcv: CMakeFiles/rmcv.dir/others/src/camera/cam_wrapper.cpp.o
 rmcv: CMakeFiles/rmcv.dir/others/src/camera/video_wrapper.cpp.o
@@ -540,7 +900,7 @@ rmcv: /usr/local/lib/libglog.a
 rmcv: /usr/local/lib/libopencv_world.so.4.5.0
 rmcv: /usr/local/lib/libgflags.so.2.2.2
 rmcv: CMakeFiles/rmcv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable rmcv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Linking CXX executable rmcv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rmcv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

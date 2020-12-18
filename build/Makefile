@@ -706,6 +706,654 @@ config/src/runtime.cpp.s:
 	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/config/src/runtime.cpp.s
 .PHONY : config/src/runtime.cpp.s
 
+energy/src/calibrate/split.o: energy/src/calibrate/split.cpp.o
+
+.PHONY : energy/src/calibrate/split.o
+
+# target to build an object file
+energy/src/calibrate/split.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.o
+.PHONY : energy/src/calibrate/split.cpp.o
+
+energy/src/calibrate/split.i: energy/src/calibrate/split.cpp.i
+
+.PHONY : energy/src/calibrate/split.i
+
+# target to preprocess a source file
+energy/src/calibrate/split.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.i
+.PHONY : energy/src/calibrate/split.cpp.i
+
+energy/src/calibrate/split.s: energy/src/calibrate/split.cpp.s
+
+.PHONY : energy/src/calibrate/split.s
+
+# target to generate assembly for a file
+energy/src/calibrate/split.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/calibrate/split.cpp.s
+.PHONY : energy/src/calibrate/split.cpp.s
+
+energy/src/calibrate/structing.o: energy/src/calibrate/structing.cpp.o
+
+.PHONY : energy/src/calibrate/structing.o
+
+# target to build an object file
+energy/src/calibrate/structing.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.o
+.PHONY : energy/src/calibrate/structing.cpp.o
+
+energy/src/calibrate/structing.i: energy/src/calibrate/structing.cpp.i
+
+.PHONY : energy/src/calibrate/structing.i
+
+# target to preprocess a source file
+energy/src/calibrate/structing.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.i
+.PHONY : energy/src/calibrate/structing.cpp.i
+
+energy/src/calibrate/structing.s: energy/src/calibrate/structing.cpp.s
+
+.PHONY : energy/src/calibrate/structing.s
+
+# target to generate assembly for a file
+energy/src/calibrate/structing.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/calibrate/structing.cpp.s
+.PHONY : energy/src/calibrate/structing.cpp.s
+
+energy/src/change/mode_change.o: energy/src/change/mode_change.cpp.o
+
+.PHONY : energy/src/change/mode_change.o
+
+# target to build an object file
+energy/src/change/mode_change.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.o
+.PHONY : energy/src/change/mode_change.cpp.o
+
+energy/src/change/mode_change.i: energy/src/change/mode_change.cpp.i
+
+.PHONY : energy/src/change/mode_change.i
+
+# target to preprocess a source file
+energy/src/change/mode_change.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.i
+.PHONY : energy/src/change/mode_change.cpp.i
+
+energy/src/change/mode_change.s: energy/src/change/mode_change.cpp.s
+
+.PHONY : energy/src/change/mode_change.s
+
+# target to generate assembly for a file
+energy/src/change/mode_change.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/mode_change.cpp.s
+.PHONY : energy/src/change/mode_change.cpp.s
+
+energy/src/change/multiple_mode.o: energy/src/change/multiple_mode.cpp.o
+
+.PHONY : energy/src/change/multiple_mode.o
+
+# target to build an object file
+energy/src/change/multiple_mode.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.o
+.PHONY : energy/src/change/multiple_mode.cpp.o
+
+energy/src/change/multiple_mode.i: energy/src/change/multiple_mode.cpp.i
+
+.PHONY : energy/src/change/multiple_mode.i
+
+# target to preprocess a source file
+energy/src/change/multiple_mode.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.i
+.PHONY : energy/src/change/multiple_mode.cpp.i
+
+energy/src/change/multiple_mode.s: energy/src/change/multiple_mode.cpp.s
+
+.PHONY : energy/src/change/multiple_mode.s
+
+# target to generate assembly for a file
+energy/src/change/multiple_mode.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/multiple_mode.cpp.s
+.PHONY : energy/src/change/multiple_mode.cpp.s
+
+energy/src/change/target_change.o: energy/src/change/target_change.cpp.o
+
+.PHONY : energy/src/change/target_change.o
+
+# target to build an object file
+energy/src/change/target_change.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.o
+.PHONY : energy/src/change/target_change.cpp.o
+
+energy/src/change/target_change.i: energy/src/change/target_change.cpp.i
+
+.PHONY : energy/src/change/target_change.i
+
+# target to preprocess a source file
+energy/src/change/target_change.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.i
+.PHONY : energy/src/change/target_change.cpp.i
+
+energy/src/change/target_change.s: energy/src/change/target_change.cpp.s
+
+.PHONY : energy/src/change/target_change.s
+
+# target to generate assembly for a file
+energy/src/change/target_change.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/change/target_change.cpp.s
+.PHONY : energy/src/change/target_change.cpp.s
+
+energy/src/clear/clear.o: energy/src/clear/clear.cpp.o
+
+.PHONY : energy/src/clear/clear.o
+
+# target to build an object file
+energy/src/clear/clear.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.o
+.PHONY : energy/src/clear/clear.cpp.o
+
+energy/src/clear/clear.i: energy/src/clear/clear.cpp.i
+
+.PHONY : energy/src/clear/clear.i
+
+# target to preprocess a source file
+energy/src/clear/clear.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.i
+.PHONY : energy/src/clear/clear.cpp.i
+
+energy/src/clear/clear.s: energy/src/clear/clear.cpp.s
+
+.PHONY : energy/src/clear/clear.s
+
+# target to generate assembly for a file
+energy/src/clear/clear.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/clear/clear.cpp.s
+.PHONY : energy/src/clear/clear.cpp.s
+
+energy/src/clear/energy_init.o: energy/src/clear/energy_init.cpp.o
+
+.PHONY : energy/src/clear/energy_init.o
+
+# target to build an object file
+energy/src/clear/energy_init.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.o
+.PHONY : energy/src/clear/energy_init.cpp.o
+
+energy/src/clear/energy_init.i: energy/src/clear/energy_init.cpp.i
+
+.PHONY : energy/src/clear/energy_init.i
+
+# target to preprocess a source file
+energy/src/clear/energy_init.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.i
+.PHONY : energy/src/clear/energy_init.cpp.i
+
+energy/src/clear/energy_init.s: energy/src/clear/energy_init.cpp.s
+
+.PHONY : energy/src/clear/energy_init.s
+
+# target to generate assembly for a file
+energy/src/clear/energy_init.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/clear/energy_init.cpp.s
+.PHONY : energy/src/clear/energy_init.cpp.s
+
+energy/src/energy.o: energy/src/energy.cpp.o
+
+.PHONY : energy/src/energy.o
+
+# target to build an object file
+energy/src/energy.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/energy.cpp.o
+.PHONY : energy/src/energy.cpp.o
+
+energy/src/energy.i: energy/src/energy.cpp.i
+
+.PHONY : energy/src/energy.i
+
+# target to preprocess a source file
+energy/src/energy.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/energy.cpp.i
+.PHONY : energy/src/energy.cpp.i
+
+energy/src/energy.s: energy/src/energy.cpp.s
+
+.PHONY : energy/src/energy.s
+
+# target to generate assembly for a file
+energy/src/energy.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/energy.cpp.s
+.PHONY : energy/src/energy.cpp.s
+
+energy/src/find/energy_finder.o: energy/src/find/energy_finder.cpp.o
+
+.PHONY : energy/src/find/energy_finder.o
+
+# target to build an object file
+energy/src/find/energy_finder.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.o
+.PHONY : energy/src/find/energy_finder.cpp.o
+
+energy/src/find/energy_finder.i: energy/src/find/energy_finder.cpp.i
+
+.PHONY : energy/src/find/energy_finder.i
+
+# target to preprocess a source file
+energy/src/find/energy_finder.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.i
+.PHONY : energy/src/find/energy_finder.cpp.i
+
+energy/src/find/energy_finder.s: energy/src/find/energy_finder.cpp.s
+
+.PHONY : energy/src/find/energy_finder.s
+
+# target to generate assembly for a file
+energy/src/find/energy_finder.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/find/energy_finder.cpp.s
+.PHONY : energy/src/find/energy_finder.cpp.s
+
+energy/src/find/target_finder.o: energy/src/find/target_finder.cpp.o
+
+.PHONY : energy/src/find/target_finder.o
+
+# target to build an object file
+energy/src/find/target_finder.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.o
+.PHONY : energy/src/find/target_finder.cpp.o
+
+energy/src/find/target_finder.i: energy/src/find/target_finder.cpp.i
+
+.PHONY : energy/src/find/target_finder.i
+
+# target to preprocess a source file
+energy/src/find/target_finder.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.i
+.PHONY : energy/src/find/target_finder.cpp.i
+
+energy/src/find/target_finder.s: energy/src/find/target_finder.cpp.s
+
+.PHONY : energy/src/find/target_finder.s
+
+# target to generate assembly for a file
+energy/src/find/target_finder.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/find/target_finder.cpp.s
+.PHONY : energy/src/find/target_finder.cpp.s
+
+energy/src/get/get_aim_point.o: energy/src/get/get_aim_point.cpp.o
+
+.PHONY : energy/src/get/get_aim_point.o
+
+# target to build an object file
+energy/src/get/get_aim_point.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.o
+.PHONY : energy/src/get/get_aim_point.cpp.o
+
+energy/src/get/get_aim_point.i: energy/src/get/get_aim_point.cpp.i
+
+.PHONY : energy/src/get/get_aim_point.i
+
+# target to preprocess a source file
+energy/src/get/get_aim_point.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.i
+.PHONY : energy/src/get/get_aim_point.cpp.i
+
+energy/src/get/get_aim_point.s: energy/src/get/get_aim_point.cpp.s
+
+.PHONY : energy/src/get/get_aim_point.s
+
+# target to generate assembly for a file
+energy/src/get/get_aim_point.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_aim_point.cpp.s
+.PHONY : energy/src/get/get_aim_point.cpp.s
+
+energy/src/get/get_center.o: energy/src/get/get_center.cpp.o
+
+.PHONY : energy/src/get/get_center.o
+
+# target to build an object file
+energy/src/get/get_center.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.o
+.PHONY : energy/src/get/get_center.cpp.o
+
+energy/src/get/get_center.i: energy/src/get/get_center.cpp.i
+
+.PHONY : energy/src/get/get_center.i
+
+# target to preprocess a source file
+energy/src/get/get_center.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.i
+.PHONY : energy/src/get/get_center.cpp.i
+
+energy/src/get/get_center.s: energy/src/get/get_center.cpp.s
+
+.PHONY : energy/src/get/get_center.s
+
+# target to generate assembly for a file
+energy/src/get/get_center.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_center.cpp.s
+.PHONY : energy/src/get/get_center.cpp.s
+
+energy/src/get/get_guess_point.o: energy/src/get/get_guess_point.cpp.o
+
+.PHONY : energy/src/get/get_guess_point.o
+
+# target to build an object file
+energy/src/get/get_guess_point.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.o
+.PHONY : energy/src/get/get_guess_point.cpp.o
+
+energy/src/get/get_guess_point.i: energy/src/get/get_guess_point.cpp.i
+
+.PHONY : energy/src/get/get_guess_point.i
+
+# target to preprocess a source file
+energy/src/get/get_guess_point.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.i
+.PHONY : energy/src/get/get_guess_point.cpp.i
+
+energy/src/get/get_guess_point.s: energy/src/get/get_guess_point.cpp.s
+
+.PHONY : energy/src/get/get_guess_point.s
+
+# target to generate assembly for a file
+energy/src/get/get_guess_point.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_guess_point.cpp.s
+.PHONY : energy/src/get/get_guess_point.cpp.s
+
+energy/src/get/get_polar_angle.o: energy/src/get/get_polar_angle.cpp.o
+
+.PHONY : energy/src/get/get_polar_angle.o
+
+# target to build an object file
+energy/src/get/get_polar_angle.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.o
+.PHONY : energy/src/get/get_polar_angle.cpp.o
+
+energy/src/get/get_polar_angle.i: energy/src/get/get_polar_angle.cpp.i
+
+.PHONY : energy/src/get/get_polar_angle.i
+
+# target to preprocess a source file
+energy/src/get/get_polar_angle.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.i
+.PHONY : energy/src/get/get_polar_angle.cpp.i
+
+energy/src/get/get_polar_angle.s: energy/src/get/get_polar_angle.cpp.s
+
+.PHONY : energy/src/get/get_polar_angle.s
+
+# target to generate assembly for a file
+energy/src/get/get_polar_angle.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_polar_angle.cpp.s
+.PHONY : energy/src/get/get_polar_angle.cpp.s
+
+energy/src/get/get_predict_point.o: energy/src/get/get_predict_point.cpp.o
+
+.PHONY : energy/src/get/get_predict_point.o
+
+# target to build an object file
+energy/src/get/get_predict_point.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.o
+.PHONY : energy/src/get/get_predict_point.cpp.o
+
+energy/src/get/get_predict_point.i: energy/src/get/get_predict_point.cpp.i
+
+.PHONY : energy/src/get/get_predict_point.i
+
+# target to preprocess a source file
+energy/src/get/get_predict_point.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.i
+.PHONY : energy/src/get/get_predict_point.cpp.i
+
+energy/src/get/get_predict_point.s: energy/src/get/get_predict_point.cpp.s
+
+.PHONY : energy/src/get/get_predict_point.s
+
+# target to generate assembly for a file
+energy/src/get/get_predict_point.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/get/get_predict_point.cpp.s
+.PHONY : energy/src/get/get_predict_point.cpp.s
+
+energy/src/judge/judge_contour.o: energy/src/judge/judge_contour.cpp.o
+
+.PHONY : energy/src/judge/judge_contour.o
+
+# target to build an object file
+energy/src/judge/judge_contour.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.o
+.PHONY : energy/src/judge/judge_contour.cpp.o
+
+energy/src/judge/judge_contour.i: energy/src/judge/judge_contour.cpp.i
+
+.PHONY : energy/src/judge/judge_contour.i
+
+# target to preprocess a source file
+energy/src/judge/judge_contour.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.i
+.PHONY : energy/src/judge/judge_contour.cpp.i
+
+energy/src/judge/judge_contour.s: energy/src/judge/judge_contour.cpp.s
+
+.PHONY : energy/src/judge/judge_contour.s
+
+# target to generate assembly for a file
+energy/src/judge/judge_contour.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_contour.cpp.s
+.PHONY : energy/src/judge/judge_contour.cpp.s
+
+energy/src/judge/judge_mode.o: energy/src/judge/judge_mode.cpp.o
+
+.PHONY : energy/src/judge/judge_mode.o
+
+# target to build an object file
+energy/src/judge/judge_mode.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.o
+.PHONY : energy/src/judge/judge_mode.cpp.o
+
+energy/src/judge/judge_mode.i: energy/src/judge/judge_mode.cpp.i
+
+.PHONY : energy/src/judge/judge_mode.i
+
+# target to preprocess a source file
+energy/src/judge/judge_mode.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.i
+.PHONY : energy/src/judge/judge_mode.cpp.i
+
+energy/src/judge/judge_mode.s: energy/src/judge/judge_mode.cpp.s
+
+.PHONY : energy/src/judge/judge_mode.s
+
+# target to generate assembly for a file
+energy/src/judge/judge_mode.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_mode.cpp.s
+.PHONY : energy/src/judge/judge_mode.cpp.s
+
+energy/src/judge/judge_shoot.o: energy/src/judge/judge_shoot.cpp.o
+
+.PHONY : energy/src/judge/judge_shoot.o
+
+# target to build an object file
+energy/src/judge/judge_shoot.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.o
+.PHONY : energy/src/judge/judge_shoot.cpp.o
+
+energy/src/judge/judge_shoot.i: energy/src/judge/judge_shoot.cpp.i
+
+.PHONY : energy/src/judge/judge_shoot.i
+
+# target to preprocess a source file
+energy/src/judge/judge_shoot.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.i
+.PHONY : energy/src/judge/judge_shoot.cpp.i
+
+energy/src/judge/judge_shoot.s: energy/src/judge/judge_shoot.cpp.s
+
+.PHONY : energy/src/judge/judge_shoot.s
+
+# target to generate assembly for a file
+energy/src/judge/judge_shoot.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_shoot.cpp.s
+.PHONY : energy/src/judge/judge_shoot.cpp.s
+
+energy/src/judge/judge_time.o: energy/src/judge/judge_time.cpp.o
+
+.PHONY : energy/src/judge/judge_time.o
+
+# target to build an object file
+energy/src/judge/judge_time.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.o
+.PHONY : energy/src/judge/judge_time.cpp.o
+
+energy/src/judge/judge_time.i: energy/src/judge/judge_time.cpp.i
+
+.PHONY : energy/src/judge/judge_time.i
+
+# target to preprocess a source file
+energy/src/judge/judge_time.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.i
+.PHONY : energy/src/judge/judge_time.cpp.i
+
+energy/src/judge/judge_time.s: energy/src/judge/judge_time.cpp.s
+
+.PHONY : energy/src/judge/judge_time.s
+
+# target to generate assembly for a file
+energy/src/judge/judge_time.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/judge/judge_time.cpp.s
+.PHONY : energy/src/judge/judge_time.cpp.s
+
+energy/src/mark/mark.o: energy/src/mark/mark.cpp.o
+
+.PHONY : energy/src/mark/mark.o
+
+# target to build an object file
+energy/src/mark/mark.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.o
+.PHONY : energy/src/mark/mark.cpp.o
+
+energy/src/mark/mark.i: energy/src/mark/mark.cpp.i
+
+.PHONY : energy/src/mark/mark.i
+
+# target to preprocess a source file
+energy/src/mark/mark.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.i
+.PHONY : energy/src/mark/mark.cpp.i
+
+energy/src/mark/mark.s: energy/src/mark/mark.cpp.s
+
+.PHONY : energy/src/mark/mark.s
+
+# target to generate assembly for a file
+energy/src/mark/mark.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/mark/mark.cpp.s
+.PHONY : energy/src/mark/mark.cpp.s
+
+energy/src/run.o: energy/src/run.cpp.o
+
+.PHONY : energy/src/run.o
+
+# target to build an object file
+energy/src/run.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/run.cpp.o
+.PHONY : energy/src/run.cpp.o
+
+energy/src/run.i: energy/src/run.cpp.i
+
+.PHONY : energy/src/run.i
+
+# target to preprocess a source file
+energy/src/run.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/run.cpp.i
+.PHONY : energy/src/run.cpp.i
+
+energy/src/run.s: energy/src/run.cpp.s
+
+.PHONY : energy/src/run.s
+
+# target to generate assembly for a file
+energy/src/run.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/run.cpp.s
+.PHONY : energy/src/run.cpp.s
+
+energy/src/send/send.o: energy/src/send/send.cpp.o
+
+.PHONY : energy/src/send/send.o
+
+# target to build an object file
+energy/src/send/send.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/send/send.cpp.o
+.PHONY : energy/src/send/send.cpp.o
+
+energy/src/send/send.i: energy/src/send/send.cpp.i
+
+.PHONY : energy/src/send/send.i
+
+# target to preprocess a source file
+energy/src/send/send.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/send/send.cpp.i
+.PHONY : energy/src/send/send.cpp.i
+
+energy/src/send/send.s: energy/src/send/send.cpp.s
+
+.PHONY : energy/src/send/send.s
+
+# target to generate assembly for a file
+energy/src/send/send.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/send/send.cpp.s
+.PHONY : energy/src/send/send.cpp.s
+
+energy/src/show/show.o: energy/src/show/show.cpp.o
+
+.PHONY : energy/src/show/show.o
+
+# target to build an object file
+energy/src/show/show.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/show/show.cpp.o
+.PHONY : energy/src/show/show.cpp.o
+
+energy/src/show/show.i: energy/src/show/show.cpp.i
+
+.PHONY : energy/src/show/show.i
+
+# target to preprocess a source file
+energy/src/show/show.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/show/show.cpp.i
+.PHONY : energy/src/show/show.cpp.i
+
+energy/src/show/show.s: energy/src/show/show.cpp.s
+
+.PHONY : energy/src/show/show.s
+
+# target to generate assembly for a file
+energy/src/show/show.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/show/show.cpp.s
+.PHONY : energy/src/show/show.cpp.s
+
+energy/src/tool/tool.o: energy/src/tool/tool.cpp.o
+
+.PHONY : energy/src/tool/tool.o
+
+# target to build an object file
+energy/src/tool/tool.cpp.o:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.o
+.PHONY : energy/src/tool/tool.cpp.o
+
+energy/src/tool/tool.i: energy/src/tool/tool.cpp.i
+
+.PHONY : energy/src/tool/tool.i
+
+# target to preprocess a source file
+energy/src/tool/tool.cpp.i:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.i
+.PHONY : energy/src/tool/tool.cpp.i
+
+energy/src/tool/tool.s: energy/src/tool/tool.cpp.s
+
+.PHONY : energy/src/tool/tool.s
+
+# target to generate assembly for a file
+energy/src/tool/tool.cpp.s:
+	$(MAKE) -f CMakeFiles/rmcv.dir/build.make CMakeFiles/rmcv.dir/energy/src/tool/tool.cpp.s
+.PHONY : energy/src/tool/tool.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1013,6 +1661,78 @@ help:
 	@echo "... config/src/runtime.o"
 	@echo "... config/src/runtime.i"
 	@echo "... config/src/runtime.s"
+	@echo "... energy/src/calibrate/split.o"
+	@echo "... energy/src/calibrate/split.i"
+	@echo "... energy/src/calibrate/split.s"
+	@echo "... energy/src/calibrate/structing.o"
+	@echo "... energy/src/calibrate/structing.i"
+	@echo "... energy/src/calibrate/structing.s"
+	@echo "... energy/src/change/mode_change.o"
+	@echo "... energy/src/change/mode_change.i"
+	@echo "... energy/src/change/mode_change.s"
+	@echo "... energy/src/change/multiple_mode.o"
+	@echo "... energy/src/change/multiple_mode.i"
+	@echo "... energy/src/change/multiple_mode.s"
+	@echo "... energy/src/change/target_change.o"
+	@echo "... energy/src/change/target_change.i"
+	@echo "... energy/src/change/target_change.s"
+	@echo "... energy/src/clear/clear.o"
+	@echo "... energy/src/clear/clear.i"
+	@echo "... energy/src/clear/clear.s"
+	@echo "... energy/src/clear/energy_init.o"
+	@echo "... energy/src/clear/energy_init.i"
+	@echo "... energy/src/clear/energy_init.s"
+	@echo "... energy/src/energy.o"
+	@echo "... energy/src/energy.i"
+	@echo "... energy/src/energy.s"
+	@echo "... energy/src/find/energy_finder.o"
+	@echo "... energy/src/find/energy_finder.i"
+	@echo "... energy/src/find/energy_finder.s"
+	@echo "... energy/src/find/target_finder.o"
+	@echo "... energy/src/find/target_finder.i"
+	@echo "... energy/src/find/target_finder.s"
+	@echo "... energy/src/get/get_aim_point.o"
+	@echo "... energy/src/get/get_aim_point.i"
+	@echo "... energy/src/get/get_aim_point.s"
+	@echo "... energy/src/get/get_center.o"
+	@echo "... energy/src/get/get_center.i"
+	@echo "... energy/src/get/get_center.s"
+	@echo "... energy/src/get/get_guess_point.o"
+	@echo "... energy/src/get/get_guess_point.i"
+	@echo "... energy/src/get/get_guess_point.s"
+	@echo "... energy/src/get/get_polar_angle.o"
+	@echo "... energy/src/get/get_polar_angle.i"
+	@echo "... energy/src/get/get_polar_angle.s"
+	@echo "... energy/src/get/get_predict_point.o"
+	@echo "... energy/src/get/get_predict_point.i"
+	@echo "... energy/src/get/get_predict_point.s"
+	@echo "... energy/src/judge/judge_contour.o"
+	@echo "... energy/src/judge/judge_contour.i"
+	@echo "... energy/src/judge/judge_contour.s"
+	@echo "... energy/src/judge/judge_mode.o"
+	@echo "... energy/src/judge/judge_mode.i"
+	@echo "... energy/src/judge/judge_mode.s"
+	@echo "... energy/src/judge/judge_shoot.o"
+	@echo "... energy/src/judge/judge_shoot.i"
+	@echo "... energy/src/judge/judge_shoot.s"
+	@echo "... energy/src/judge/judge_time.o"
+	@echo "... energy/src/judge/judge_time.i"
+	@echo "... energy/src/judge/judge_time.s"
+	@echo "... energy/src/mark/mark.o"
+	@echo "... energy/src/mark/mark.i"
+	@echo "... energy/src/mark/mark.s"
+	@echo "... energy/src/run.o"
+	@echo "... energy/src/run.i"
+	@echo "... energy/src/run.s"
+	@echo "... energy/src/send/send.o"
+	@echo "... energy/src/send/send.i"
+	@echo "... energy/src/send/send.s"
+	@echo "... energy/src/show/show.o"
+	@echo "... energy/src/show/show.i"
+	@echo "... energy/src/show/show.s"
+	@echo "... energy/src/tool/tool.o"
+	@echo "... energy/src/tool/tool.i"
+	@echo "... energy/src/tool/tool.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

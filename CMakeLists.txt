@@ -17,8 +17,8 @@ find_package(glog REQUIRED)
 
 #Src
 file(GLOB_RECURSE sourcefiles 
-"others/**/*.h" "others/**/*.cpp" 
-"energy/**/*.cpp" "energy/**/*.h" 
+"others/**/*.h" "others/**/*.cpp"
+"energy/**/*.h" "energy/**/*.cpp" 
 "net/**/*.cpp" "net/**/*.h" 
 "config/**/*.cpp" "config/**/*.h" 
 "com/**/*.h"  "com/**/*.cpp" "com/**/*.cc"

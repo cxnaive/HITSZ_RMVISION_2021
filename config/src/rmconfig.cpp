@@ -5,6 +5,7 @@ void CameraConfig::init() {
     dist = (cv::Mat_<double>(1, 5) << k1, k2, p1, p2, k3);
     cv::initUndistortRectifyMap(mtx, dist, cv::noArray(), mtx,
                                 cv::Size(640, 480), CV_32FC1, mapx, mapy);
+    FOCUS_PIXEL = (fx + fy) / 2;
 }
 
 void RmConfig::init_from_file() {
@@ -35,6 +36,10 @@ void RmConfig::init_from_file() {
     save_labelled_boxes = config["save_labelled_boxes"].asBool();
     show_pnp_axies = config["show_pnp_axies"].asBool();
     log_send_target = config["log_send_target"].asBool();
+    show_energy = config["show_energy"].asBool();
+    save_mark = config["save_mark"].asBool();
+    show_process = config["show_process"].asBool();
+    show_info = config["show_info"].asBool();
 
     // data
     Json::Value data = root["config_data"];
@@ -44,6 +49,8 @@ void RmConfig::init_from_file() {
     ENERGY_CAMERA_EXPOSURE = data["ENERGY_CAMERA_EXPOSURE"].asInt();
     ENEMY_COLOR = data["ENEMY_COLOR"].asInt();
     ANTI_TOP = data["ANTI_TOP"].asInt();
+    MANUAL_DELTA_X = data["MANUAL_DELTA_X"].asDouble();
+    MANUAL_DELTA_Y = data["MANUAL_DELTA_Y"].asDouble();
 
     // camera
     Json::Value camera = root["camera"];
@@ -79,6 +86,10 @@ void RmConfig::write_to_file() {
     config["save_labelled_boxes"] = save_labelled_boxes;
     config["show_pnp_axies"] = show_pnp_axies;
     config["log_send_target"] = log_send_target;
+    config["show_energy"] = show_energy;
+    config["save_mark"] = save_mark;
+    config["show_process"] = show_process;
+    config["show_info"] = show_info;
 
     // data
     Json::Value data;
@@ -88,6 +99,8 @@ void RmConfig::write_to_file() {
     data["ENERGY_CAMERA_EXPOSURE"] = ENERGY_CAMERA_EXPOSURE;
     data["ENEMY_COLOR"] = ENEMY_COLOR;
     data["ANTI_TOP"] = ANTI_TOP;
+    data["MANUAL_DELTA_X"] = MANUAL_DELTA_X;
+    data["MANUAL_DELTA_Y"] = MANUAL_DELTA_Y;
 
     // camera
     Json::Value camera;

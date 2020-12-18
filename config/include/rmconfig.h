@@ -5,11 +5,11 @@
 #include<opencv2/opencv.hpp>
 #ifndef H_RMCONFIG
 #define H_RMCONFIG
-
 //程序运行时各参数设置类
 class CameraConfig{
 public:
     double fx,fy,cx,cy,k1,k2,p1,p2,k3;
+    double FOCUS_PIXEL;
     int64_t roi_width;
     int64_t roi_height;
     int64_t roi_offset_x;
@@ -32,6 +32,7 @@ class RmConfig{
 public:
     const char* configPath = "rmconfig.json";
     //config
+    //
     bool show_origin = false;
     bool show_armor_box = false;
     bool show_light_box = false;
@@ -42,6 +43,11 @@ public:
     bool save_labelled_boxes = false;
     bool show_pnp_axies = false;
     bool log_send_target = false;
+    //energy config
+    bool show_energy = false;
+    bool save_mark = false;
+    bool show_process = false;
+    bool show_info = false;
 
     //DATA
     int ARMOR_CAMERA_EXPOSURE = 4000;
@@ -54,6 +60,11 @@ public:
     int ARMOR_W = 230;
     int IMAGE_CENTER_X = 320;
     int IMAGE_CENTER_Y = 240;
+    char RUNMODE = ARMOR_STATE;
+    double MCU_DELTA_X = 0;
+    double MCU_DELTA_Y = 0;
+    double MANUAL_DELTA_X = 0;
+    double MANUAL_DELTA_Y = 0;
     
     //Camera
     CameraConfig camConfig;
