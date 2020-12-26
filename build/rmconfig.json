@@ -21,7 +21,7 @@
 		"save_labelled_boxes" : false,
 		"save_mark" : false,
 		"save_video" : false,
-		"show_armor_box" : false,
+		"show_armor_box" : true,
 		"show_class_id" : false,
 		"show_energy" : false,
 		"show_info" : false,

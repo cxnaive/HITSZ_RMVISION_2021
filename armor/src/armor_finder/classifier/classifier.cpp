@@ -13,12 +13,12 @@ int Classifier::operator()(const cv::Mat &image) {
     double time_ed = rmTime.milliseconds();
     run_cnt += 1;
     run_time += time_ed - time_bg;
+#ifdef WITH_TINY_TENSORRT
+    return dat.first;
+#else
     if (dat.second < 0.9)
         return 0;
     else
-#ifdef WITH_TINY_TENSORRT
-        return dat.first;
-#else
         return dat.first + 1;
 #endif
 }
