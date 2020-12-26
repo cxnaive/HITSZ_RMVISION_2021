@@ -54,26 +54,26 @@ std::vector<cv::Point2f> ArmorBox::getArmorPoints() const {
     auto rectR = light_blobs.at(1).rect;
     if(rectL.center.x > rectR.center.x) std::swap(rectL,rectR);
     if(rectL.size.width > rectL.size.height){
-        rectL.size.width *= 2;
+        //rectL.size.width *= 2;
         rectL.points(tmp);
         points[0] = tmp[1];
         points[1] = tmp[2];
     }
     else{
-        rectL.size.height *= 2;
+        //rectL.size.height *= 2;
         rectL.points(tmp);
         points[0] = tmp[0];
         points[1] = tmp[1];
     }
 
     if(rectR.size.width > rectR.size.height){
-        rectR.size.width *= 2;
+        //rectR.size.width *= 2;
         rectR.points(tmp);
         points[2] = tmp[3];
         points[3] = tmp[0];
     }
     else{
-        rectR.size.height *= 2;
+        //rectR.size.height *= 2;
         rectR.points(tmp);
         points[2] = tmp[2];
         points[3] = tmp[3];

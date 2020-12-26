@@ -7,12 +7,13 @@
 #include <show_images/show_images.h>
 
 bool ArmorFinder::stateTrackingTarget(cv::Mat &src) {
-    auto pos = target_box.rect;
-    if (!tracker->update(src, pos)) {  // 使用KCFTracker进行追踪
+    cv::Rect rectpos = target_box.rect;
+    if (!tracker->update(src, rectpos)) {  // 使用KCFTracker进行追踪
         target_box = ArmorBox();
         LOG(WARNING) << "Track fail!";
         return false;
     }
+    cv::Rect2d pos = (cv::Rect2d)rectpos;
     if ((pos & cv::Rect2d(0, 0, 640, 480)) != pos) {
         target_box = ArmorBox();
         LOG(WARNING) << "Track out range!";
@@ -52,7 +53,7 @@ bool ArmorFinder::stateTrackingTarget(cv::Mat &src) {
             }
         } else {  //　分类器不可用，使用常规方法判断
             cv::Mat roi_gray;
-            cv::cvtColor(roi, roi_gray, CV_RGB2GRAY);
+            cv::cvtColor(roi, roi_gray, COLOR_RGB2GRAY);
             cv::threshold(roi_gray, roi_gray, 180, 255, cv::THRESH_BINARY);
             contour_area = cv::countNonZero(roi_gray);
             if (abs(cv::countNonZero(roi_gray) - contour_area) >

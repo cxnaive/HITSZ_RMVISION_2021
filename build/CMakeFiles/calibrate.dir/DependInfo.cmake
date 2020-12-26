@@ -4,23 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/chenxun/HITSZ_RMVISION_2021/calibrate_get_imgs.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.o"
-  "/home/chenxun/HITSZ_RMVISION_2021/config/src/rmconfig.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o"
-  "/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o"
-  "/home/chenxun/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o"
-  "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o"
-  "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o"
-  "/home/chenxun/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o"
-  "/home/chenxun/HITSZ_RMVISION_2021/others/src/rmtime.cpp" "/home/chenxun/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/calibrate_get_imgs.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/calibrate_get_imgs.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/config/src/rmconfig.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/config/src/rmconfig.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/others/src/camera/cam_wrapper.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/camera/cam_wrapper.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/others/src/camera/video_wrapper.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/camera/video_wrapper.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/others/src/lib_json/json_reader.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/lib_json/json_reader.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/others/src/lib_json/json_value.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/lib_json/json_value.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/others/src/lib_json/json_writer.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/lib_json/json_writer.cpp.o"
+  "/home/ubuntu/data/HITSZ_RMVISION_2021/others/src/rmtime.cpp" "/home/ubuntu/data/HITSZ_RMVISION_2021/build/CMakeFiles/calibrate.dir/others/src/rmtime.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "GFLAGS_DLL_DECLARE_FLAG="
-  "GFLAGS_DLL_DEFINE_FLAG="
-  "GFLAGS_IS_A_DLL=0"
-  "GOOGLE_GLOG_DLL_DECL="
+  "WITH_TINY_TENSORRT"
   )
 
 # The include file search paths:

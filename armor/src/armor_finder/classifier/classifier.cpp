@@ -16,5 +16,9 @@ int Classifier::operator()(const cv::Mat &image) {
     if (dat.second < 0.9)
         return 0;
     else
+#ifdef WITH_TINY_TENSORRT
+        return dat.first;
+#else
         return dat.first + 1;
+#endif
 }
