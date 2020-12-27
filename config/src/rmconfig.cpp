@@ -40,6 +40,7 @@ void RmConfig::init_from_file() {
     save_mark = config["save_mark"].asBool();
     show_process = config["show_process"].asBool();
     show_info = config["show_info"].asBool();
+    uart_port = config["uart_port"].asString();
 
     // data
     Json::Value data = root["config_data"];
@@ -90,6 +91,7 @@ void RmConfig::write_to_file() {
     config["save_mark"] = save_mark;
     config["show_process"] = show_process;
     config["show_info"] = show_info;
+    config["uart_port"] = uart_port;
 
     // data
     Json::Value data;

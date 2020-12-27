@@ -48,6 +48,7 @@ public:
     bool save_mark = false;
     bool show_process = false;
     bool show_info = false;
+    std::string uart_port = "/dev/ttyUSB0";
 
     //DATA
     int ARMOR_CAMERA_EXPOSURE = 4000;

@@ -30,6 +30,7 @@
 		"show_origin" : true,
 		"show_pnp_axies" : false,
 		"show_process" : false,
+		"uart_port" : "/dev/ttyTHS0",
 		"wait_uart" : false
 	},
 	"config_data" : 
